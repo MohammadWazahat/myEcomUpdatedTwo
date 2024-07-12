@@ -1,27 +1,56 @@
 const reducer = (state, action) => {
+  console.log(state)
+ console.log(action.payload)
+  if (action.type === "SET_LOADING") {
+    
+    return {
+      ...state,
+      isLoading : true ,
+    };
+  }
+
+  if (action.type === "SET_MY_DATA") {
+    // console.log(action.payload)
+    return {
+      ...state,
+      products : action.payload ,
+      isLoading : false ,
+      isError : false ,
+    };
+  }
+
+  if (action.type === "SET_ERROR") {
+    // console.log(action.payload)
+    return {
+      ...state,
+      isLoading : false ,
+      isError : true,
+    };
+  }
+  
   if (action.type === "ASCENDING") {
     const sorted = action.payload.sort((a, b) => {
-      return a.product_name.localeCompare(b.product_name);
+      return a.brand_name.localeCompare(b.brand_name);
     });
-    return sorted;
+    return {...state , products : sorted }
   }
   if (action.type === "DESCENDING") {
     const sorted = action.payload.sort((a, b) => {
-      return b.product_name.localeCompare(a.product_name);
+      return b.brand_name.localeCompare(a.brand_name);
     });
-    return sorted;
+    return {...state , products : sorted }
   }
   if (action.type === "LOWEST") {
     const sorted = action.payload.sort((a, b) => {
       return a.price - b.price;
     });
-    return sorted;
+    return {...state , products : sorted }
   }
   if (action.type === "HIGHEST") {
     const sorted = action.payload.sort((a, b) => {
       return b.price - a.price;
     });
-    return sorted;
+    return {...state , products : sorted }
   }
 
   // for filtering data

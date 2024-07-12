@@ -1,14 +1,48 @@
-import { createContext, useReducer, useState } from "react";
+import { createContext, useEffect, useReducer, useState } from "react";
 import reducer from "../reducers/AllDataReducer";
 import React from "react";
 import Data from "../DummyProducts.json";
+import axios from "axios";
 
 export const AllDataContext = createContext();
 
 const DataProvider = ({ children }) => {
-  const initialState = { Data: Data };
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     dispatch({ type: "SET_LOADING" });
+  //     try{
+  //       const res = await axios.get("http://localhost:3010/users");
+  //       // setMyUser(res.data);
+  //       const products = await res.data ;
+  //       dispatch({
+  //         type: "SET_MY_DATA",
+  //         payload: products,
+  //       });
+  //     }catch(err){
+  //       dispatch({ type: "SET_ERROR" });
+  //     }   
+  //   };
+  //   fetchData();
+  // }, []);
+
+  const initialState = { 
+    Data: Data, 
+    // isLoading : false ,
+    // isError : false ,
+    // products : [] ,
+  };
+
   const [state, dispatch] = useReducer(reducer, initialState);
+
   const myData = state.Data;
+  // const isLoading  = state.isLoading ;
+  // const isError  = state.isError ;
+  // const products = state.products;
+
+  // const myProductData = state.newData;
+  // console.log(state);
+  // console.log(myProductData);
 
   const [viewData, setViewData] = useState();
   const AddToPage = (x) => {
@@ -38,6 +72,10 @@ const DataProvider = ({ children }) => {
         amount: amount,
         AddToPage: AddToPage,
         viewData: viewData,
+        // isLoading  : isLoading ,
+        // isError : isError ,
+        // products : products ,
+        // myProductData: myProductData,
       }}
     >
       {children}

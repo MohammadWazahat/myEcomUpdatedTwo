@@ -37,6 +37,25 @@
       "battery": "",
       "rating": "cc",
       "rating_count": ""
+    },
+    {
+      "id": "37e8",
+      "brand_name": "d",
+      "model_name": "d",
+      "cover_image": "d",
+      "images": [],
+      "price": "d",
+      "stock": "d",
+      "color": [],
+      "storage": [],
+      "ram": [],
+      "processor": "",
+      "camera_rear": "",
+      "camera_front": "",
+      "display": "",
+      "battery": "",
+      "rating": "d",
+      "rating_count": ""
     }
   ]
 }

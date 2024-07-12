@@ -49,7 +49,7 @@ const AdminUpdateProduct = () => {
     <div>
       <div>
         <div className=" ">
-          <Link to="/">Admin All Products</Link>
+          <Link to="/adminGetAllProducts">Admin All Products</Link>
         </div>
         i am upload product
         <div>

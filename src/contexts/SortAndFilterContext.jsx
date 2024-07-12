@@ -1,19 +1,63 @@
-import { createContext, useContext, useReducer, useState } from "react";
+import { createContext, useContext, useEffect, useReducer, useState } from "react";
 import reducer from "../reducers/SortAndFilterReducer";
 import { AllDataContext } from "./AllDataContext";
+import axios from "axios";
 
 export const SortAndFilterContext = createContext();
 
 const SortAndFilterProvider = ({ children }) => {
-  const { myData } = useContext(AllDataContext);
-  const initialState = myData;
+
+  const { myData  } = useContext(AllDataContext);
+  
+  useEffect(() => {
+    const fetchData = async () => {
+      dispatch({ type: "SET_LOADING" });
+      try{
+        const res = await axios.get("http://localhost:3010/users");
+        // setMyUser(res.data);
+        const products = await res.data ;
+        dispatch({
+          type: "SET_MY_DATA",
+          payload: products,
+        });
+      }catch(err){
+        dispatch({ type: "SET_ERROR" });
+      }   
+    };
+    fetchData();
+  }, []);
+
+  const initialState = { 
+    myData : myData ,
+    isLoading : false ,
+    isError : false ,
+    products : [] ,
+  };
+
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  
+  const isLoading  = state.isLoading ;
+  const isError  = state.isError ;
+  const products = state.products;
+
+
+
+
+
+
+  // const initialState = myData;
+
+
+  // const [state, dispatch] = useReducer(reducer, initialState);
+console.log(initialState)
+console.log(state)
 
   const SortAscRed = () => {
     // console.log("i m clicked");
     dispatch({
       type: "ASCENDING",
-      payload: [...state],
+      payload: [...state.products],
     });
   };
 
@@ -21,7 +65,7 @@ const SortAndFilterProvider = ({ children }) => {
     // console.log("i m clicked");
     dispatch({
       type: "DESCENDING",
-      payload: [...state],
+      payload: [...state.products],
     });
   };
 
@@ -29,20 +73,20 @@ const SortAndFilterProvider = ({ children }) => {
     // console.log("i m clicked");
     dispatch({
       type: "LOWEST",
-      payload: [...state],
+      payload: [...state.products],
     });
   };
   const SortHighestRed = () => {
     // console.log("i m clicked");
     dispatch({
       type: "HIGHEST",
-      payload: [...state],
+      payload: [...state.products],
     });
   };
 
   //for filtering data
 
-  const newData = state.map((item) => {
+  const newData = state.products.map((item) => {
     return item.brand;
   });
   // console.log(newData);
@@ -75,6 +119,9 @@ const SortAndFilterProvider = ({ children }) => {
         state: state,
         arr: arr,
         FilterByBrand: FilterByBrand,
+        isLoading  : isLoading ,
+        isError : isError ,
+        products : products ,
       }}
     >
       {children}
