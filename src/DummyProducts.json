@@ -1,0 +1,604 @@
+[
+  
+  {
+    "id": 1,
+    "product_name": "Samsung i700",
+    "price": 826.57,
+    "quantity": 9,
+    "brand": "Samsung",
+    "category": "Microsoft Windows PocketPC 2003 Phone edition",
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJQSURBVDjLjZNvSBNxGMeX9O+FOAkaLbehozdGRGiMQqTIlEqJMIig3oxl0YxcgYt6FUZRryLYwpFWCr2wXgjBIMJMYhFjgZSiEXOg5c5N593udne7u+2+3V3tT22SBx/uxe/5fu7uuefRAdCpKJdJoVHB9h9qFSryuSJBYzqdpiRJymYyGZRDOYfH43lULCkW2NRwKpUCy7J5kskkSJJELBbTJARBwOv15iW58AZVoBbwPA9BELS7CsMwoCgK8XhcE3AcB/UhPp/vtyQnGBi03pYXjyAbPQuRD2sSbmUFVN9NLJ5ux9DryZJP0nqiChzjl48Oh9oYRPTAXBVksgnS0hRWu7uxXG/EfL0ZZ9yjGHgb1t4kGo0WBO6AvcUVsFP9oTZZjlQCP7ZA/r4JpHM3lup2Im6pRsRai2PX/GjoDWEk8BWJRKIg6P147mfP+CW63d16RUyOQP5SA6rLAsKyA0TNNizvM4D9/A4Tk2Ec7nuPE0+vgqbpgqBnzLl6vv8N3+x4eEsS0mAvHAJhMoAw6kHUVUF4rkeWHAKXZtA15kDL6C6tkXmBffiZs/P+NE7dC4pBhwsJY6USVjBtBO/bCswrbfq2GS+Ce9DwyooHoRvaPPzVxI67IVfHnQA+2JqQMFQgur0anP8J5IVmYEopmdbh5YQO1wMu0BxdKlB/44GLg48/HT8J8uBesH6/ViDxC5DnWiHPWjAz0wleYCGKokaJIDdI/6JMZ1nWEshr7UEZsnnBH8l+ZfpY9WA9YaWW0ba3SGBWJetY5xzq6pt/AY6/mKmzshF5AAAAAElFTkSuQmCC",
+    "rating": 4.2,
+    "reviews": 191,
+    "shipping_cost": 20.74,
+    "images": [
+      "https://robohash.org/maximenisiquisquam.jpg?size=500x500&set=set1",
+      "https://robohash.org/adipiscieasuscipit.jpg?size=500x500&set=set1",
+      "https://robohash.org/estrerumlaborum.jpg?size=500x500&set=set1",
+      "https://robohash.org/iddignissimosrerum.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#eb5fe8", "#ae2028", "#8b4773", "#4b16f3"]
+  },
+  {
+    "id": 2,
+    "product_name": "Asus Transformer Pad TF300T",
+    "price": 512.41,
+    "quantity": 11,
+    "brand": "Asus",
+    "category": "Android 4.0, up to 4.2",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAINSURBVDjLY/j//z8DPlxYWFgAxA9ANDZ5BiIMeASlH5BswPz58+uampo2kuUCkGYgPg/EQvgsweZk5rlz5zYSoxnDAKBmprq6umONjY1vsmdeamvd9Pzc1N2vv/Zse/k0a/6jZWGT7hWGTLhrEdR7hwOrAfPmzWtob29/XlRc9qdjw8P76fMeTU2c9WBi5LQH7UB6ftS0B9MDe+7k+XfeCvRpu6Xr1XJTEMPP2TMvlkzZ8fhn9JSb+ujO9e+6ZebbcSvMu/Wmm2fzDSv3hmuGsHh+BAptkJ9Llj3e2LDu2SVcfvZqucHm0XhD163+mplLzVVtjHgGar7asO75bXSNRyLkKg748j3c48Tyb6cr86MNnsJNDhVXVDFSWuO6Z/c6Nj//jKI5XK78YrHFz+9be///u7bj/9cVRf9PZ+v+2enMlofhxKKlj89M2PHiP9CvxjCxnS7Md78BNf+f5Pv/f7ng//9tiv9fdzn8B4rfwzAgfuaDjZN2vvrv2XIjByYGcva/s+v+I4P39RL/QeIYBni33GycuOPl/8DeW0vgLnBlfvxlbvL//0BNP8oY/r8D4ocZzP+B4k8wDABGjXf7puf/8xY/euZYcYUNJHY4XKrhZIrq72fliv9fVbL+v5vC+H+vL8ufHa7MVRgGAKNGqHLV0z8Vqx7/ty29FIgISNkKoI33obHwGKQZJA4AVQ2j4x4gIJMAAAAASUVORK5CYII=",
+    "rating": 2.0,
+    "reviews": 61,
+    "shipping_cost": 10.37,
+    "images": [
+      "https://robohash.org/etperspiciatisincidunt.jpg?size=500x500&set=set1",
+      "https://robohash.org/corporisomnisdolores.jpg?size=500x500&set=set1",
+      "https://robohash.org/delectusautcum.jpg?size=500x500&set=set1",
+      "https://robohash.org/impeditutrem.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#508879", "#f806de", "#45224f", "#e03b15"]
+  },
+  {
+    "id": 3,
+    "product_name": "Samsung Galaxy S Duos 3",
+    "price": 502.74,
+    "quantity": 39,
+    "brand": "Samsung",
+    "category": "Android 4.4.2",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAInSURBVDjLY/j//z8DJZiBZgY4tN9wcO6+0erZd2uKc+fNfoeWGxMcW27Msiq+3GWUdIZXL/okI14D7JqvB+csf3Rv4p6X//t3Pf/fvf35/8Ilj3471V3bph9zmougC6xrr8mETbu7q3jl40/FKx5+LVzy8Ltd+eUZBvGnOYjygk3llfKCZY++u3fcWutcd21B07on/61yz88kKgwsCi8qJc++9yhu2p37ppnnQ4C4oWblo/9WOReXEjTANOsCs1PD9VVZ8+9/N0k7m6Yfe5LLOPFMR+Wyh/9dqq5eUvc6xIbXALOs8zEZc+9/C+q+ddEw/rSfXuRxLfP0swuqgAYEt934pOq2nxenAUbJZ0TjJt9+Vbn80X+v5huXrbLOb7LMOLfVterqjYVNbf+3BKv+2+PE8m+nK/MjIK5AMcAg9jSjfcnl2SC/mqedQQmstpjsq+dLbP5/39r7/9+1Hf+/rij6fzpb988uZ5ZcsAL9mFNcwOhxKV3y8H9Ez603OkHHbGGaVVz3C693EXz3Daj5/yTf///LBf//b1P8/7rL4f9OF+Z7kFDPOLcutv/Wv4QJt/8HNF9/qx1wpFfZaa+Akv0eLW3fw4v2OLH+/3d23X9k8L5e4j/IO0Sld6B/H3+Zm/z/P1DTjzKG/++A+GEG83+g+BOiDDgcLtVwMkX197Nyxf+vKln/301h/L/Xl+XPDlfmKqJz3ZFw2QqgjfehsfAYpBkkDgCxi6Nciw8o3QAAAABJRU5ErkJggg==",
+    "rating": 4.7,
+    "reviews": 598,
+    "shipping_cost": 41.47,
+    "images": [
+      "https://robohash.org/eosquiamollitia.jpg?size=500x500&set=set1",
+      "https://robohash.org/molestiasvoluptatemet.jpg?size=500x500&set=set1",
+      "https://robohash.org/laborumidet.jpg?size=500x500&set=set1",
+      "https://robohash.org/expeditaculpaeum.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#df9a04", "#b1268a", "#9ccc3c", "#2937c9"]
+  },
+  {
+    "id": 4,
+    "product_name": "Sharp TM150",
+    "price": 76.68,
+    "quantity": 29,
+    "brand": "Sharp",
+    "category": "Feature phone",
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGgSURBVDjLY/j//z8DJZgsTV+9fAu+uHo8+GzvXECWAV+c3R//mTn9/ydLu4eka3ZyY/ts63T3k4Xt+4/GlqS74JONY+9Hc5tdH4wsmAmGgWv9xQKX2nMPnapOF4A1WzsEfjSzefLB0FwUHoi/szPX/05P/f0rOWk9ugHONWefzNl44X/B/L3/o7LXnn1h4fitN6i22Tx7W5tpxqYHxmnrChh+p6X+/rd10/+fsbF/f0REmiE0n7F3rDz5wb7s6Bu3gt3Vz80db69zTd1mlr11tUnGxt89Cw/8N0ha9YDhZ2LC+p8xMb9/hEdc+h4Ucu+br//JFXFNi5zKjz20KztiDzIMGFgzP+iZboQZbpSypsAgaeUjvfilqIEI9C9bf8rk3Wd8kz59sHV+BQysa8DA+vNe1+Trew0DfrwJCehfCceqU8fsy48ttS05xAkMLANgYP39N23K/3fq+n9wpkTXugsFQP8+B/r3DdC/pciS77WN1r9T0/v9Vkl7PU4DnKrPPJi85uJ/oH9fkpUXHCqOF9iVHn5gU7S/gG6ZiaoGAADG9LhB7Kzu8AAAAABJRU5ErkJggg==",
+    "rating": 3.3,
+    "reviews": 741,
+    "shipping_cost": 10.97,
+    "images": [
+      "https://robohash.org/solutarationeminus.jpg?size=500x500&set=set1",
+      "https://robohash.org/ipsasedomnis.jpg?size=500x500&set=set1",
+      "https://robohash.org/nonetnecessitatibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/sedcupiditatequia.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#57f0ad", "#e4e437", "#5ccf33", "#365eba"]
+  },
+  {
+    "id": 5,
+    "product_name": "Pantech Jest II",
+    "price": 472.8,
+    "quantity": 26,
+    "brand": "Pantech",
+    "category": "Feature phone",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKySURBVDjLjZNbSNNRHMcXuoceFHrzpQdfsjd9FOzBMimIkWUKYT5Y5gVT0ES7EIqSWq2XZROJIHTd9hBDWKhbMJssbU1D527t4q4Onbvo7pv7ds6hiemLB76c3/nx+37O75z//3AAcA5KpVKVKRSKUZlMtiSVSrckEklALBYbRSLR2PvJsfLD9fuBWq3OI2YhMScdDgf8fj92dnYQiUQQCoWg1+sw9vppalw4ODkqGMn/D/DPPG2xWJDJZBCLxUAhdrsdPp8P6XQamXQUqagRCvkHvHjWqxwZfpK/D6A7U3MymQQdqVQKdG02mxEMBhk0EfUgHtZhL/4Hs1/fYaCvfZIBiLmUtL0XDoeZYXd3l0HcbjcMBgNoPp1OIRIyIBHWsy6SRF2dLXvd99vKOMQsdDqdoDIajcxEz0xBGxsbLE7EQwSgJUYHibdJhwkolUo0NzcLOSUlJTiu6N1QcCAQgNVqRUNDw28G0Gq1MJlMmJ+fx8TEBCums8vlYvlsjl6szWbD+vo6vF4v6urqfAxAi7ImCqGiuWw+O6vWbFjUmpkMdg+uVdduHwFQZc0HAT0VZ6GoL4K8govZ2tOY4Xfj8tUbuiNHyILonD3CVF8jNJ2liElfIqObRuRTF37eK8bwpTOqY13ix/MnESVmCHhA7ylgqBBbz8shvch1sx9JIBAI5+bm4A2ST+legc6+jFXrLyybFqExqFjbGc0XHByBvgLIL+RmGIDP5+cNDg3IP0+JYN3UMwgFLJkWoDH+gKymAOG3dwBiivdw4Ceyt+RgpjLHtf+Y+vv78x487nnT2tGUksyIsbD6nUFWLGooBW1YuFsET28hNh9yYWk8gW+83PR0Zc4jzuHn2dHRfq6ptXG8/vYtbc3N6/6qap6fV3VF+6q6eFFayfXQtsnOTmqm9X8BjufboeKd+1kAAAAASUVORK5CYII=",
+    "rating": 4.3,
+    "reviews": 349,
+    "shipping_cost": 25.04,
+    "images": [
+      "https://robohash.org/idmolestiaevoluptas.jpg?size=500x500&set=set1",
+      "https://robohash.org/modietvoluptatibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/estetnon.jpg?size=500x500&set=set1",
+      "https://robohash.org/aliquidmodiaut.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#4db576", "#490c10", "#4a87fc", "#1db341"]
+  },
+  {
+    "id": 6,
+    "product_name": "Nokia C3-01 Touch and Type",
+    "price": 353.92,
+    "quantity": 100,
+    "brand": "Nokia",
+    "category": "Feature phone",
+    "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL6SURBVDjLpVNLaFNBFD3zvtHUpEnaJIhNm6aaVhtKqtWFqBDUgJ+CC11ZqyCKq7oQshdEEReiFCnaVTdFcSF2I8Uv9QPWD2lKmqpVqW1f09CXNP+X5D3nRVdVVw7cGWa4595z7p1LNE3D/yxO3wYGBi4VCoVAqVRaU6lUSLFY5PP5vKCfqqoSURQVq9U6EgqFzuv+PT09W+nxdWhoaJn09/ebWZZN+v1+6GwooGrRD6M4cXgjlJlB3HjSCpOjDdPTn3plWb5JwSZqOvUdrMfjibS3t1sdDgdmZ2chSRISiQTWu1rx7N0SYulOdGzdBUIIFhYWjjAMIxoMBnAcR1ZWVnZzNGuLyWRCJBKB3W6Hz+cDlQIqBfX19YhGoxgbG4PNZkMgEMDi4iKSyWTVJxaLeTndMR6Po66uDiWjC9ce55EtE6iUn0h47NnQDGs6TelPw+uUsdMQBtviQzbxHAlXHoyuN5vNoqGhAQ8nFBQ1BgaemsCgwvB4/sMIXd6GmijazCk4fcfREjiJxq4z2O+tBacHoNWuWqYiUCALjqEVoiUidFM0ATWVcfQc7YLZ0oXlL1EIRME6kxN1DheqEhRFAW0bJS1QoEqNAaFBGBqkVXyPbZtZ1DYHUVwYhrCW4PvHKWSyJVy8/+WXBD07rSgETUFZpfpVjRZRg5sbx1n/JGo9B1GYvw3Cy+Br1kGRZ/BgioOUVH4F0LOHw2H4zRLYcg5F+ubMPUXv5gmYW7pRmLsFhi9BWWnC3JO3uP5Ug5Rhqv+F07OnUqlqe2yyjB1uN8RcBJ2beNi3dEOR7oAVNBRSjZBevMXdWS9Qm0Uul6sGIMFgsI/29TK9iBaLhTTVyKTv9D6UiR0260tY7AIFN2Bm9DVC95fVxbRanYHfM/SIrB6me1f3akfPDSI2fAHz315BdHWgHF+atwhs0Bd6E1k9TMzqh9hnqaxMjsDdsQtGoxdz4xOZQl458Dewvv5gcGy3Nd/Z7OC2t7mh8cVX+fjSqUNXwjP/GuefEpx5owIvdjoAAAAASUVORK5CYII=",
+    "rating": 1.1,
+    "reviews": 339,
+    "shipping_cost": 28.85,
+    "images": [
+      "https://robohash.org/recusandaemolestiasfuga.jpg?size=500x500&set=set1",
+      "https://robohash.org/iurerationesed.jpg?size=500x500&set=set1",
+      "https://robohash.org/suntexplicabolaboriosam.jpg?size=500x500&set=set1",
+      "https://robohash.org/atearumnam.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#09db9c", "#da0e81", "#4f95dc", "#46c84c"]
+  },
+  {
+    "id": 7,
+    "product_name": "Celkon C33",
+    "price": 644.17,
+    "quantity": 39,
+    "brand": "Celkon",
+    "category": "Feature phone",
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALTSURBVDjLpZN9LBRgHMf1R/NPuo7Uam0aaV7G2uSvYki6c4hhWZe3mJw6i9FxnMj7RUNeIzYvnUtLuXKGXDV2yMm9JK10iDHlvOTuvN6369Zs1kZbf3y2Z8/2+ezZ8zw/PQB6/8NfG1H2B1n5JMPlAsoBsEkEsFyISqqdccY/Ba7ZGTJKvYiaygBDVGi570tEtjsBMY77NRRbo7RdA2UUAmq0IlsrZVN+Q0SmhzHinQ1xxY6wuGsg23Ef2sqSMclno7cqBtFOxoh1PYLr500RcYa4Vpvgqb9joDLIZE498wmLPWWY6rgHMfc25C9zoZCLwIk0Wxxttr800hCAz88zMfTQDeIS66BtgSKqVbei/xFmB5qgGuJoadStFSIO+BkWX6e7GFiQvAB+TmFe8gTCPNLMlnyY0rDX/GxULYd+GisDVVDLmnWo3jdAwLbFd2nK5uq3Fky/vguV9Ck2xrohrYlQ62Rjd46+EamedozUCdnEMrhJXmhM8tTRnucChYyFTVU3VKM3MNdPx8e6MEgqA3/0F/mc1DMic/cYuHFDTDy6MTypQv0kECsDaH1AVocACmkiNtVCKL8EQz1BxdIwE/IKpxlRvusp3SVa+1Z7u/qx0dS7gXIxQBdqECnQIJXzDNPvGH/kIKjHL2NRlgRZoRtiIyJTt15hMNliY5aXgOJqHkL4QFgrwKrjQdp2S3vst1DLw7AyEYgF7UlGSi5gtiUewjjLta2AmGWpUbTfQUBEDTI6lIgr4uBDKxNifgEm+/yhlFMxN5QASakPAsNLMd+Zjn6GlWYrIK2lJ4oSzddDQ7PW7UMEeJx7Dlgaw8gDP3Qxj6KnnAx+DhkuflWghzOVgym2K1onfdtHkjfSDFKYGUbHvXnlaeE2WBUWY7WvEH2Zzqi/agYHcq7ixMWW9pvRqYfGuTSDHafR34Gozg62WH+VQ17vzHd5w2PYmO40zr8A5dG3M3vHNHcAAAAASUVORK5CYII=",
+    "rating": 2.5,
+    "reviews": 837,
+    "shipping_cost": 4.08,
+    "images": [
+      "https://robohash.org/sitperspiciatisvel.jpg?size=500x500&set=set1",
+      "https://robohash.org/quietsit.jpg?size=500x500&set=set1",
+      "https://robohash.org/optioquosipsa.jpg?size=500x500&set=set1",
+      "https://robohash.org/minusrerumducimus.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#d026e6", "#910c20", "#4373ba", "#c145c0"]
+  },
+  {
+    "id": 8,
+    "product_name": "Sharp SE-02",
+    "price": 383.06,
+    "quantity": 94,
+    "brand": "Sharp",
+    "category": "Feature phone",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEjSURBVDjLxVM7TsRADPVEK4oVSrGU1FyCjltwADrOQhOJe1DsMbbfYjsQ2g4h5cvM2MaeT1BIJNBSYMl69iTv+TOJYWb4ixWnEquqCpVX3x887bqxJSQAkgwRwEvsE97drM0wDLAooHZxXgBlsiAmJDl4ecPwTtd1ywJaXsmZqLFP5JBHPrRtuyyQ29Xq2nIU44mYWtM0ywJKOr7TOC9hjIOAOvwgcHu9Nr+5hYnAw/bI81EYvLTgBJ1lsA7BORIkeLy/MnVdTzu43JwFJPmwdFGjgNcRxH0BXsj757i8mQBzWhaqK4EDGZ1gyvV8+KD5LeRqPmCKQ/UYo3oSJ6L5DqwlOLz2ghiq6pzOxvZ1fuQvYra+73PrfJKXZcmK5t/+xmyf9PZAc1Cvzt0AAAAASUVORK5CYII=",
+    "rating": 4.4,
+    "reviews": 384,
+    "shipping_cost": 3.05,
+    "images": [
+      "https://robohash.org/similiqueanimiet.jpg?size=500x500&set=set1",
+      "https://robohash.org/quisquamisteut.jpg?size=500x500&set=set1",
+      "https://robohash.org/velitetrepellendus.jpg?size=500x500&set=set1",
+      "https://robohash.org/teneturutnihil.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#3033f0", "#7aecdf", "#d7f187", "#67aa2d"]
+  },
+  {
+    "id": 9,
+    "product_name": "Asus ROG Phone II ZS660KL",
+    "price": 779.54,
+    "quantity": 16,
+    "brand": "Asus",
+    "category": "Android 9.0, ROG UI",
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVDjLxZO/SwJhHMYF16b+gP6GZiehwcm7hBORKLXzPT1SIhMUHCKO48TT88emhwchHTiEERQhTrlE1FIhQS1BGRTU5vr0ntgS6BFBDR94eeH5fPk+L68DgOM3OP5MUCjkg7IsPf9YoKoFJw1LiiKPJGkX7wyToCxMFWhayaVpxTHFouqi4ftmU0enc4CTGLEE15T5qYJSSUWtVkW1WkalUkartYd2u43zbBZPPp8lMGeuoKp59Ptn6PV66Ha7MAwDp6KIIcfh1u+3BHMzBXRXmOY+FEWBLMs4FoTx5LtgENuJOGxLtIrS9ToIITADATwyDC69XmzGBYiiYC/I5bJoNOo44vnx5CuWgcftRii0iliMtxek01s4jIRoeBk3dO/URhw+eo7QO0Ii9oIBx+lvLPvxwrKDnfW1JULCD8mkiEwmhWg0PFtAG16kvFIuvtqmU51RPixTRraCicTz/akmohXK8P8+0zQ+AXBHwZp9sfnqAAAAAElFTkSuQmCC",
+    "rating": 1.4,
+    "reviews": 289,
+    "shipping_cost": 39.96,
+    "images": [
+      "https://robohash.org/voluptatibusearumquidem.jpg?size=500x500&set=set1",
+      "https://robohash.org/doloreserrorrerum.jpg?size=500x500&set=set1",
+      "https://robohash.org/culpaetmaxime.jpg?size=500x500&set=set1",
+      "https://robohash.org/doloribussedpariatur.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#eacebb", "#56ca58", "#62c350", "#d28503"]
+  },
+  {
+    "id": 10,
+    "product_name": "Samsung C3782 Evan",
+    "price": 651.98,
+    "quantity": 81,
+    "brand": "Samsung",
+    "category": "Feature phone",
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJeSURBVDjLzVNbSJNRHBd660Go597qJQrEl4qgCIoopyk0ZstN0G22EZu1dAuEbA/Otb0Iu+jciinsaUiI7uJgF4cojkIdXtYG0TbYFuk86Ly0+e3X+QY9CCZEL33we/nOOb//+V1ODYCaf0HN/0FQed3TRrFFQVgwvUrCKLvJkfw5KcuekZJYRH62t5PDJ3xy8JhL9hubN4v3HwqqBPQAj6KIGR8wPw+srADJJLC+DiYcwqbTicL4OHYcDmxbR5EZGkLmTT92b98t7ty41cwSfMJ7GzA1BbhcwNoasLwMTEyA6e1FRipFVixGQSTCD4EAn5uaENfpkOx+CVJ/PcMS1FVUymjlnRag05BKofrNzoLhcpHlcPC9oQF+txvT09PYGBjAV3EXSN213Pblel7VA6r3HNXrYd72A5OTQC4HLC3hm8GAgNeLTEcHwuEwgsEgYj0qfBy1lV1mi+tYCmVpV22ps9N9pFYDCwvA6ir8fj8SiQRCoRC1ZB3xeBw+n48urUJHZWi12rPHIjlsE9Qe8FrdJZW6SrAxPIxYLEatcUGj0UCv11dlRKNRGI3GDyf2YP9RS+3eA47/98Z8Ps9OAtV7ULh0tcViseyl02l4PB4MDg6eXI7dO/cuOKmhXqo/RU212+3YuniFx66ZzWayRpOyWq2QSCR/btgX3tObsy9eZRcXFxEIBDAyMrJnMpmIm6YRiUQgl8vtlOD8qTV10PKwBOxtWDnswbGxMczNzbEEUCgUZ04loBptMpkMfX19jeO0jQYaK53aKhQKGT6fP/NXj0mpVEIgYOt//P8vZQLgm35VBV4AAAAASUVORK5CYII=",
+    "rating": 3.3,
+    "reviews": 826,
+    "shipping_cost": 36.08,
+    "images": [
+      "https://robohash.org/mollitiautdelectus.jpg?size=500x500&set=set1",
+      "https://robohash.org/quoasperioresquod.jpg?size=500x500&set=set1",
+      "https://robohash.org/autrepudiandaequis.jpg?size=500x500&set=set1",
+      "https://robohash.org/officiaoditvoluptas.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#3995da", "#6ad5eb", "#abaf2d", "#5dcc7f"]
+  },
+  {
+    "id": 11,
+    "product_name": "Nokia 6111",
+    "price": 524.79,
+    "quantity": 80,
+    "brand": "Nokia",
+    "category": "Feature phone",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKoSURBVDjLdVNdSJNRGD4RRJfdJP2ReBH9eGMQGWVXwoggoosIKooMf0jQG2/EJFOstB+VcpvObX6ub7TNWTIW4Wxtc3PR3GTKVAyd4mA6xT6VgbWtp3MOKTL1wAOH95z3eZ73fc8hAEg6XC7XM4vFEunq6vrLwPYsttPdbQGz2ZxhMBj+IG2xmF6vP7IjwX/FMFVLUaC3txdjY2NIpVJIJpMYHR3lMXbG7rC7G444AWVf36o2MzOD7u5uBINBDpPJxGNpjtY5QU9Pj5YCoVCIKzJ4vV5YrVbodDoOtmcx5iaRSGBkZAQsR61W6wlVSkxMTMDv9yMQCHBFpp6+NhwNDQ3B6XTCbrdDpVIlCLUnra2tYWFhAVNTU5iengatD5OTk5uO2H5gYADj4+Ow2Wwcw8PDaG9vl4jRaOQEKysrWF5exuzsLLfr8/k2e8BUy97noVB7Fl+/2eBwOLjbtrY2iTWQE0iShKWlJcRiMUQiEa7KSnO73VyxuDMXTy23cUt5Cv32Pi6gVColQmf7Ox6PY3V1FdFolCeHw2GUi5dRpruAEuEcCtQ5ePzxJoy+FlSYrkPWdAiuQQdaW1vXiSiKNtaQubk5XgYjYb0o1eXiU0AOs/8dT/zga0ZzfwUEbyNKRBnOP9+PV28bPISOaR99HIWCIPxk3Z2fn8fi4iIe0npZ8pu+cjR8KUX95yLUWB6g1loMpasOdzvzcOIJSW4+Sa1Wm6HRaOrpbH95PB7cUZ2G4UczxO+vIQw2QuN5QUkeQeGqRZF4BVnVJHa0kuRs+wsdHR3ZdL7iDUUWrrYcQ35TBi69PIB72ouQO2tQoJMhs5pED1eSMzt+pg3QDssUCoVdLpe7abOuZdftid8X8pFZRSI0+eSuv3E3UMvx41V7cbCSZG2N/wO9JP1FmMH3ngAAAABJRU5ErkJggg==",
+    "rating": 2.0,
+    "reviews": 286,
+    "shipping_cost": 11.25,
+    "images": [
+      "https://robohash.org/consequaturquisaut.jpg?size=500x500&set=set1",
+      "https://robohash.org/harumnisivoluptatem.jpg?size=500x500&set=set1",
+      "https://robohash.org/repellendusundeminus.jpg?size=500x500&set=set1",
+      "https://robohash.org/voluptasaliquamab.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#316c3d", "#a46531", "#36ac7d", "#3cdb96"]
+  },
+  {
+    "id": 12,
+    "product_name": "Nokia C2-02",
+    "price": 845.59,
+    "quantity": 10,
+    "brand": "Nokia",
+    "category": "Feature phone",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAImSURBVDjLpZPfa1JhGMcHXfZ/eBUVdNOVBqGDgwaSy1HLg6R5IUVyYCi5li6Wv+dRysAQoiG4ple1aMyRYj/wF8Ugl8PVTSCM0GI0K/DbeR9RJ4xi9MLnnPf9Pg+f877ncMYAjP0PdOGjVZtEWKIsAT5a6fKRCvhwGUbpfiVagVEsgQ+VWqZIseTPbMK/XMN+QRyHHN6lDyOCTbZ6WPg6IP4X2DAGXneGArHS7gty9V0iv3UwfcHknVx3IDCEy79YGP/Hk/fvQO9aHx7hcqjUPew7mLi1NhRMBYoU6mbXoJ5ZBedcpfX2l/aBUK/zxVBwyfeWwjPTzzGXfI/TwspAsNP6MUJfcN6+MhRc9Lyh8NT1p7j5qAjOKiIYDCKRSMDr86H8roatz034/QHKWG3qhgi5XH60t4P5VyQ4dnUZvHAXoiii2Wyi0Wggl8shtBDGvfsP8LFep6xQKFCPWq329XYwXyDB8QseCNN2VDc24PF4oNFoYDabEYlE4HA4aM4yVmMSQRDaJJh05+krnOCsmHXNkaDT6UA1Po5sNotqtYp8Po90Ok0ZqzGB2+3eI8HE7ZfbTJBKpWCz2UjgcrmgVCqhUqmg1WoJNmcZqzGBxWJp9QQz6ws6Z/aZ+trjb+d0BngDYSwmnyCTySAWi5HUbrfTnGWLyaWuLxD6LR2nNvJrymSyIwqF4iTHcZ9MJtOu1Wrdk/ip1+sNEmel+XeWsRrrYb1/AB4L/elcpleiAAAAAElFTkSuQmCC",
+    "rating": 1.1,
+    "reviews": 312,
+    "shipping_cost": 49.94,
+    "images": [
+      "https://robohash.org/idexercitationemmolestias.jpg?size=500x500&set=set1",
+      "https://robohash.org/delectusatvoluptatibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/asperioresnumquamsoluta.jpg?size=500x500&set=set1",
+      "https://robohash.org/reiciendisullamquidem.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#01141a", "#e109c2", "#9aaac3", "#d4f4fe"]
+  },
+  {
+    "id": 13,
+    "product_name": "QMobile Noir i5",
+    "price": 516.98,
+    "quantity": 90,
+    "brand": "QMobile",
+    "category": "Android 4.2, up to 4.4",
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJcSURBVDjLfVPPaxNBFP5mtzVL0nhIA4mUmBaqB/WSUy459FBs6amIIv0DJBcR9GIOWqSI9JSjesjFi1eDoNBEsdEaEFsRD0EPLYKxNMREyY/NbvbH+GbdTdOWOvB4M7Pvfe9735tlnHOIZd24znHuAsxiEdw0wS0LtmHAdv3o/Dz4q3UEXq8xDK0RbzOcxIcSbXHv+b6Bw2sfwDAdEFvXnWAHSHh3P3IMgDQAoI+ckhGPwxIgZMJbmgY2PQ1b7VFM/z8M+saKpmnLzctX0AmOQZNlGIJ6uw3lVwORN28RpJhjAbbv3qlyVe2EJibGFDrbtg1PYALGJ1nuqLMz1aVDAEwEVSqVpGma+UgkEm1TxV6v5wAIkyQJPp/PsVKptKfr+mI6nf5wQAOimgmHw9FWqwVVVWHRBIQJANFGp9Nx7hOJRJTYZI6ISEEpwURUNoXqbnVhHli320UgEAAxSB1poVwuW7FYTKrX604ShjQYnD/mwbfy0Ks7sGT+g64eXiyYq46IfRqPFzzsB/ut5zhZfY+zV9PwTZ1H70shVnlXvF+cHe06LRCt5uBJu7179IXvbTzFmZlLULbXwZ4swb/zDJPxcZkzfnPEBdig/heF0s7sDzGRGjUo0Slg4db+/O+dgmyzScmd8+rm5uaeoijw+/0HNGCMgYfCUD+/AChJv83wm6xVqwstdplHPZfLXSMmK8lkMhoMBv+9TpdF4+VjnPi2htPj9E9IVbTrJr7XZMvQ+PIAQKxsNpskkAyJmiILCXGppSbZxtyf0q5S/7ogWyxOlX9S1qO5gvngL9401yPDHgg9AAAAAElFTkSuQmCC",
+    "rating": 3.9,
+    "reviews": 459,
+    "shipping_cost": 23.04,
+    "images": [
+      "https://robohash.org/nequequiincidunt.jpg?size=500x500&set=set1",
+      "https://robohash.org/laudantiumnesciuntquod.jpg?size=500x500&set=set1",
+      "https://robohash.org/facereeaomnis.jpg?size=500x500&set=set1",
+      "https://robohash.org/quibusdamdoloresqui.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#6f83f6", "#e7d2b9", "#ea871f", "#f616cb"]
+  },
+  {
+    "id": 14,
+    "product_name": "Oppo Reno A",
+    "price": 542.43,
+    "quantity": 86,
+    "brand": "Oppo",
+    "category": "Android 9.0, ColorOS 6",
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAANRSURBVDjLXZNPTFt1AMc/77WltH0F5I9U1sqgc0qFxYNGlODiEj1sh0kC0WkUD2qiNxM9mCVc3IhGd0E9mOjiZdFkzJg5iI5ljARoNPvDwsZgDLvRCaxA4bV97/X9/Xkxhvi5f7/J55t8JSEE2qgkAwNAD2AC3ZGDwmQH2qjUCJwHysBbkYNiAUDa+pkAcDyQeOP1ipZ3dhmZ73Pzq+ri6fAZB+j4Nz/bq78qpxKxlD9YJ5nzx+4AvTU9Iis9+JGjla1vflDZ/FpTITO8fS+74L/QdFZRgi6hgAeAYctYhsaBtV59d9thfG5B02+dyAKdsmUiS5XNlVuLw9uLSwvKdOInpSVqUWsYmH/l0RbzKAWNWLSCq40nwquZ6UpfXWetCLUplkmrtPQt3bYU/m5T3hOfSv4SToT9BHWXfXtqqamSEUjkVZc/59exQz4i+TM8oQ2bgdLcXFAUjkhCCD4+ee4LX83uj5KNCjWmoO9AC1uqyoZmkGiKAeAIODW6hKcI1nKrbGj+wW/efu6oDLDqND3jCfCKFu1769AdQSAQYOz33yioKrZpcn5snNTeetScgSE/hGoFuwD8AKahdTiWhGp61NWFMF1BJBzm/vIyYxcnmL0+g/HYBYyVEooxBDURTEPrAJABLEND020My8N0wfYgpxaJKAqz12c49EoPlnCI17exIr9LSdewDI2dBbOFoo7k98is6biSzJcjh8g1nkZN/soP1/qpV+K0xZ4lUfc4d4t9mOX1uZ0Klwqyf39eCZK+9oBUshrHs3jpyX5c4eF6Lh6CFTVLR7yLkmVwpfxe175j/dV+AKusnbPKWt8t15eS4w4nhwVlx8IVHvc2F7E9B8ezsV2bglnkqUQ3JVuX/shMbsoAk0PvX7bL+lAysq3PZja5uZyl7JRxXIfGqkeJVTXzSHUrAV+IhugurmanmFqaXNctnpaEEACk0+kXo9HoxdzGljswfNv3cPsgZcvC8izKjkWyPkVn68tcXp5m4s54Xrfs7pVBMecHGBkZaQDONjQ0oJVUtbR192t14sj+nWe6kvrseUkOBW7cv8En7V9Vx0Jx878R8/m8AfydTqdbgBdmTn16k//ROnBcG799KfBhy+fFCiNczBt5DeAfIAavfKIsB2UAAAAASUVORK5CYII=",
+    "rating": 4.1,
+    "reviews": 174,
+    "shipping_cost": 47.11,
+    "images": [
+      "https://robohash.org/adiurevoluptas.jpg?size=500x500&set=set1",
+      "https://robohash.org/velveroeos.jpg?size=500x500&set=set1",
+      "https://robohash.org/earumlaboriosamet.jpg?size=500x500&set=set1",
+      "https://robohash.org/ipsummaximepraesentium.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#297286", "#ecbbd2", "#810ebd", "#d80078"]
+  },
+  {
+    "id": 15,
+    "product_name": "Nokia C5-03",
+    "price": 839.72,
+    "quantity": 8,
+    "brand": "Nokia",
+    "category": "Symbian 9.4, Series 60 rel. 5",
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAImSURBVDjLjZLda9JRGMf3b3TTdTcFXXXRTbeDIijo5W7GmtWqCysIF1JM9DfffvMN+fk284UpKqRIMCfIDCO7kNSRooJvOBUvgkFEKPv2O8+WsWmtB77n4TznPJ/z5eHMAZiTyWQat9vdCQaDCIfDiEQiiEajlNme1f1+PxwOx1ChUJhYz2/RYrPZCmL+htPjpyAIe1MAr9c7EvPBNdkm/iUWolNMAZg9FrdW3mFRu4Ml/QdI+Swern/EsukTHls+0xkLj8czDfD5fBOAVGx+cKL5qfUPYMPzdjZgPB6jWq2iXC6jWCwin88jl8shm80ik8kgnU7/3cFRkSZvMBhQqVQQCASg0WgI1H/+DLU7NzAajWbPwOWiIjqdDlqtFur1Omq1GrkplUqkQqFAd5yuGQDBbqfDWCwGo9GIdrtNbnieJ1goFIJerycHgmCfBlitVgL0+330ej10u11yw0DNZhONRgObW068ECRYMlzHXeWV/fmXF15NAEajiQCJRAIWi4Ug8XgcZrOZQLqN13gTliCxa8WXvST47Ue4zZ/HpeUzOgJodToCDIdD0mAwmLhhkmjmESutI/b18CFd6j74lJQBfhBApVKNdjKZg1QqBabtE7q6chHvd53H/nS8aGWAw0HI5fLS6qryu0qlhlotiuPAra2B45g4XH5yFtrkPaiTC9Ss3lo47uA0iReVN3XnoE8u0ssss/1kBv8J4UTtM9tHmWP1X8ma/9q6R1ZmAAAAAElFTkSuQmCC",
+    "rating": 1.8,
+    "reviews": 598,
+    "shipping_cost": 48.81,
+    "images": [
+      "https://robohash.org/liberoeiusqui.jpg?size=500x500&set=set1",
+      "https://robohash.org/odioatquetemporibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/temporeestdolores.jpg?size=500x500&set=set1",
+      "https://robohash.org/quisitest.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#98344d", "#ad6424", "#fd67ce", "#a86f42"]
+  },
+  {
+    "id": 16,
+    "product_name": "Unnecto Air 5.0",
+    "price": 3.73,
+    "quantity": 5,
+    "brand": "Unnecto",
+    "category": "Android 4.4.2",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJQSURBVDjLpZNLiI1xGMZ//+98Zy6G4zIJkyg0xEyWLlkMC6JkIYoke1kQUrKwsJGFlaVLsbBAuYSJBTEJCTkZQ8clJsYxx5y5fZfzfx+Lk8swbDz1rt635/319rxOEv+j4F/NzzeW5Xval/5zg5NE6c5yyYSkRZhmybRK0ra6prVIYujNBWS6JLOrMnWYtw6ZxszY+Ng5SfTeblNt01oqpTxB7WTCCQupm7oCMmMBQ2mJ6FMHUc8jkt4X1E9v4+vTk8zc9NSFADLlou728sTFx0GGfD9p3z3C3BKcC0l6zpId00LN3C0gT/H+Yczbyh83aGy71W/pIMhIi+dIi1ew6C3IAGHxR+LuMwy9PAAy4t4CMnsIEH4/hkxVXJ+ApeAMG+7AZVLko2pVYpAnyOaoDJWnAaWfBt5AAkuQT3GBB4bBpTjFoAgsrhJ5j3mzPwlUJZBSUAaIgBgRI58iHyMZmEPesiNyIG+YxQT1s8ESkIcggaBKISUgQIaP+7GKlUYamB0tPz9FOH4xLjsJFzpcmOLChKBG4FIaFhyh72U7cbn4bN72wvsRBk3rHu4cfHOdctdZaqasJ6hvIKhJceEgmbEhDc2HiHry9HXdwCfphlGjLG+TBwrXGChcJ9u4GRfOwQWDZBv3ERW7KHVeY/jzuw0tu953jojyr3p9umV+kM3lc82ryc1fQ6a2jnLXTb48uczA2/y61t0fLv7xC7/r1Yl5U+RtRxA27B/X3EbxwfmCTypbW/d8uDvqM/1NncdmTfJJ5aAllb2te7uHR5v5BtnsZt4skcPVAAAAAElFTkSuQmCC",
+    "rating": 2.8,
+    "reviews": 352,
+    "shipping_cost": 28.39,
+    "images": [
+      "https://robohash.org/eumdoloremqui.jpg?size=500x500&set=set1",
+      "https://robohash.org/cumnullaofficiis.jpg?size=500x500&set=set1",
+      "https://robohash.org/aperiamperferendisnam.jpg?size=500x500&set=set1",
+      "https://robohash.org/quiaquianesciunt.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#fe8f43", "#f4cf3f", "#7a6d7f", "#217f5e"]
+  },
+  {
+    "id": 17,
+    "product_name": "Allview X2 Soul Lite",
+    "price": 377.1,
+    "quantity": 37,
+    "brand": "Allview",
+    "category": "Android 5.0",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ0SURBVDjLjZPLa1NREIe/+0jaNE0VTRvBF1YQwRciUgpCQXwt3AhiVz66ceXSpYL4Nyi4kQiuruLGR32gVBeKithWUatUW6pR21KjJmma3HNmXFy9tQrigbMYmPmdb35zxlFVBgYGdpVun75upgqY8RF25Ic6+L8z4fT396+31j6QcCbtYZk8c5htZ1/8V7Xv+x1+EARDnZ2dRxpf9uabFwIKYRjOSRQRVHVOnEqlIpHu7u7V1tpT0rYfD8P3e31/veS6LiISx47jxIIxQfJZbz7TpiBRAsDJS+OIgEJUICDAib3Z2TZigtb9eI7h2527sYAIrFma+ikQ3cHRCgDW2rkE/uC1fEtWUdVZAVWej04jgIqiYhGNPHBdV/4gOIDnGIq378Y9ntyX49GbCSbLNcq1BhoSSealBBtWMSZRBewswdOr+UxrxKmqiAgX7n9gwfwWNqzI4ic8Jr7VKZZqPH5bYlN7SxrwfiM4iIeheKsvdroxlaY910Sx5mCqFnU8FrdleDFcoVAo4Hme6wZBMFQoFI6M956j/OQ8YolHVK7WSSYTGCuIKDN1oW7AqE8ul8NaK78RHMLFMHW9LzaxqSFBPbSEFoxEourAdKVCNrty7hTch5fzzW0CdvYDLco4lKqWTCpJzSq+6/DpS4hOvebT4Luo1XgX6jNpF8Po8R723BpGRPharjP8ucKHokEUSpUa4fgrtrR+ZGbsMRev3DzmB0EwZIxZt/HVjXdNC1KowsjICMYYjDGkRViV1ug7NwtfS2NMvx+kdflaujaPHXN+GdazamHXsubk1kIlfH/2zdSzf23h0d1Ltu/s6jiuaht+AFR4fcZEARLxAAAAAElFTkSuQmCC",
+    "rating": 3.6,
+    "reviews": 987,
+    "shipping_cost": 0.42,
+    "images": [
+      "https://robohash.org/autemnonat.jpg?size=500x500&set=set1",
+      "https://robohash.org/assumendablanditiisab.jpg?size=500x500&set=set1",
+      "https://robohash.org/quiasuntin.jpg?size=500x500&set=set1",
+      "https://robohash.org/quamvoluptatequidem.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#08ceb8", "#ed799a", "#34b737", "#245493"]
+  },
+  {
+    "id": 18,
+    "product_name": "LG HB620T",
+    "price": 518.02,
+    "quantity": 30,
+    "brand": "LG",
+    "category": "Feature phone",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKOSURBVDjLpVPbThNRFOUD/IJ+B6gvJr740mg0JsQUX0yMiUl9MJJIwGBsMOgDQSEz0mANhEIKoqhBBTEpahm5SWxLKTO9WBAKBTqtw9DpDbqcfUprvbw5ycpJTtZae+09+1QBqKrEqS4YdNToMOowHcJ4eGf4k18pPKKjuumFYh75vMbPuIPC4tKy7PX55akFUXj6McI3DCfMxCHubwaH4hODrg2LdzksxeIKVC2H/EGBYTeVRXQrgekFn9QzEbYQt2RSMqgmsU/8pqYzedCnZfeRUHOQdexl9tmdqmUxNedRbWMBMqlmBtQXxabKJfGOksW952HEklmG1mdhRBOZssnE5LR0fSBG7RjIoGZE+M5T7JJ4I5mBqW0Bqztp3OyTcLyuBde6/ViLpxlHjGyCG57hSUsGxumvAYF6pqhUcV1O4+IDD+aDCs7dfsfOM02jzFBJ5bGd1NA79FogLRmYPItLMg0rvptjBkSsa3ez864e/2htM24NBBDZ0liKbP4AA44hmbTMwO31MQOKT6T6XhHHLtxhsYMbKZy3OBGOaQzFFDn09vWXDYyf5v1CUs1gV8tjNvADZ5vH8SWk4HTjK4jRvbJBaDPF/kxwPQnO5ii3UONwhvjVaByFArCyrbGpn7zCoak/wBLUtgrsDERTyO0XMDnrh8X6tjxEQ/3gjtnpmpNkpThlqnajR2QVSWj/EGVJqEBIr97ZbZcuW4PF31haJO6l1zL63qXGEkVici/P+qVEtExUObieQIdtUG3kxn4tUuUqtznmLPbhUWnGE8JqTGEzoZ79KzLGXV60cT1SQ+ebv1e58jFdfbJibnk8zrd39QncI6v8sJOX73fYhMaOEf4SL/77Mf3Pc/4JB00Hw5wBy+AAAAAASUVORK5CYII=",
+    "rating": 1.8,
+    "reviews": 110,
+    "shipping_cost": 45.47,
+    "images": [
+      "https://robohash.org/expeditaestperferendis.jpg?size=500x500&set=set1",
+      "https://robohash.org/quasreprehenderitut.jpg?size=500x500&set=set1",
+      "https://robohash.org/corporiseaquenon.jpg?size=500x500&set=set1",
+      "https://robohash.org/eligendinihiltenetur.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#2b61fc", "#90b445", "#54e1d3", "#194e85"]
+  },
+  {
+    "id": 19,
+    "product_name": "Sony Ericsson K500",
+    "price": 164.36,
+    "quantity": 65,
+    "brand": "Sony",
+    "category": "Feature phone",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKKSURBVDjLrVPPS5NxGH8jPES3HfoThC7SJaqLgjMHojB38SJGoHgQA7Fsgr8SwamMbQotPKzDRsjY1EYkBaLODWXWpkyXijO2CqZzbmkwmts+Pc9THqToUl/48D7v5/s8n+fX+yoAlH+B8l8FdnZ2ygj27e1teyQSsW9tbc1ubm7OhsNh+8bGhn19fd0eDAbLfhPY3d0tp8DY/v4+jo6OkEqlBMfHx/JMJpOCg4MDkCjW1tZigUCgXAQoWE3BxXQ6jeSXON69cmLBZsZLw2O4nzwQeEb0WHhuwfvXLvL5hMPDQ6yurhZXVlbUXHaIg8/OzsTRpL35V3hG9Tg9PRURv98fUqick/n5eRSLReRJ5O2zETge3sPTRjUsutsCa9NdvHh0X+72QgFkMhlpaXl5+avicDg+JxIJZLNZ5PN5eeZyOQFX9idQ24hGo/B6vVFlYmLCiV+HS6PpgwXPB8fgcpmLxWKg4UkwbQqLi4tmpaKiQnMuwI60JkxNTWFsbAw2mw0Gg4Ez8eQxPDwsHN9NTk6ir6/vmqJSqe6cZ6c9w2QywWKxSEbOtLS0BKPRKBwNXDifzyfvtbW1o0pJSckt6ilUKBTg8XjQ3d2NYDiMgYEB1NXVoaWlBePj48KzzVxPT4+IdHZ2ZhQ6V1hkZmYm0t/fj6GhIRGIx+PQaDTgDXFb3Ibb7UZ1dTXm5ua8LDA4OJj9+TkqyiXC1a6urmB7e7sI9Pb2oqqqSgLq6+sFbFdWVhZ0Ot0bFmhtbU1f+Beu09FqtXtmsxkulwvT09OwWq3o6OiAXq8Xmzmn05miuaSpnQ8XBEpLSy/TVm7U1NR8bG5u/tbW1pYlfG9oaGgiqMk+YY7v2Id9fwCSFd62xayLzgAAAABJRU5ErkJggg==",
+    "rating": 3.8,
+    "reviews": 155,
+    "shipping_cost": 6.86,
+    "images": [
+      "https://robohash.org/quiadeseruntnon.jpg?size=500x500&set=set1",
+      "https://robohash.org/minimadoloresab.jpg?size=500x500&set=set1",
+      "https://robohash.org/laboriosammolestiaeex.jpg?size=500x500&set=set1",
+      "https://robohash.org/facilisreprehenderitearum.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#d5b8bd", "#b20a3c", "#6ad2c8", "#59dddd"]
+  },
+  {
+    "id": 20,
+    "product_name": "Nokia N70",
+    "price": 515.27,
+    "quantity": 21,
+    "brand": "Nokia",
+    "category": "Symbian OS 8.1a , Series 60 UI",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIpSURBVDjLddM9aFRBFIbh98zM3WyybnYVf4KSQjBJJVZBixhRixSaShtBMKUoWomgnaCxsJdgIQSstE4nEhNREgyoZYhpkogkuMa4/3fuHIu7gpLd00wz52POMzMydu/Dy958dMwYioomIIgqDa+VnWrzebNUejY/NV6nQ8nlR4ufXt0fzm2WgxUgqBInAWdhemGbpcWNN9/XN27PPb1QbRdgjEhPqap2ZUv5+iOwvJnweT1mT5djZKjI6Ej/udz+wt1OJzAKYgWyDjJWyFghmzFsbtcY2gsTJwv09/Vc7RTgAEQgsqAKaoWsM8wu/z7a8B7vA8cHD3Fr+ktFgspO3a+vrdVfNEulJ/NT4zWngCBYY1oqSghKI465fvYwW+VAatPX07IZmF7YfrC0uDE8emPmilOFkHYiBKxAxhmSRPlZVVa2FGOU2Ad2ap4zg92MDBXJZczFmdflx05VEcAZMGIIClZASdesS2cU/dcm4sTBArNzXTcNakiCb3/HLRsn4Fo2qyXh3WqDXzUlcgYnam3Dl4Hif82dbOiyiBGstSjg4majEpl8rpCNUQUjgkia0M5GVAlBEBFUwflEv12b/Hig6SmA1iDtzhcsE6eP7LIxAchAtwNVxc1MnhprN/+lh0txErxrPZVdFdRDEEzHT6LWpTbtq+HLSDDiOm2o1uqlyOT37bIhHdKaXoL6pqhq24Dzd96/tUYGwPSBVv7atFglaFIu5KLuPxeX/xsp7aR6AAAAAElFTkSuQmCC",
+    "rating": 2.0,
+    "reviews": 446,
+    "shipping_cost": 47.78,
+    "images": [
+      "https://robohash.org/similiqueassumendafuga.jpg?size=500x500&set=set1",
+      "https://robohash.org/veldoloribusnesciunt.jpg?size=500x500&set=set1",
+      "https://robohash.org/sitetut.jpg?size=500x500&set=set1",
+      "https://robohash.org/delectusquicumque.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#75f3d1", "#7c6a69", "#586368", "#bb7408"]
+  },
+  {
+    "id": 21,
+    "product_name": "Sharp Aquos Crystal 2",
+    "price": 681.89,
+    "quantity": 44,
+    "brand": "Sharp",
+    "category": "Android 5.0",
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHgSURBVDjLjZLNbtNAFIXrJ8mL+QVQoVUWICFEFZCAbrJCAdpFWCC1i1QgVLEoZYFAgrY0rhPHTmwnThP/BKetU9vxT7I5zHWEhEBuWBxpFnO+c+6dWQGw8qfUisQNdnR+tD+ojQ9txz2wHPvdea1f7fDtssj9ff8fs7VnlCbCJRIzwsxNMfuZIuoGuPriwtjqlOSndS4XQMlkJuPcm2F+yXSxUGrHcD9YUDcbfC6AalMyGaNuiIvDEdx9C0FjwqAJfMGD/qRZywXQvFk6SxwfOOhvdwpGRSnYb/pslASxMYX6UHRuaDB0aGYCuO9N9J4rhW65VTC39AWgN0XnnpAPMHeN2lT1F3XrHqzXBsxXOq4+u0idGN7XMeTiaf4IvRcKP/5oIxlEWSKJjCTayeClhubaUf4SlWcCp5el0ujtEGHrOtt8asUIxQmGzCzdOS6JxW/5z5hBHguc9qjJdzekfqQGSM4jdFaFsHX7hG+sf7/5I5HaG2dV7UFD0+6K2lTxs8W1b536yuoPTVo72lwKUO+Lc6pP5nQYZ/uIeyGCMw+shbYUoBTrGYBE9UmhdI1A9CD/D0BaP6nKrC6rrZGRRGc5G+H401LAb5HBZ7WpOp3z7uUC2HtXqDKJJe/k3fsF8TkmWq5zP6gAAAAASUVORK5CYII=",
+    "rating": 2.5,
+    "reviews": 539,
+    "shipping_cost": 48.46,
+    "images": [
+      "https://robohash.org/ipsanonsint.jpg?size=500x500&set=set1",
+      "https://robohash.org/sedminimalaboriosam.jpg?size=500x500&set=set1",
+      "https://robohash.org/modiporroqui.jpg?size=500x500&set=set1",
+      "https://robohash.org/dignissimosaspernaturquasi.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#a94035", "#dd567b", "#884143", "#a8eb2c"]
+  },
+  {
+    "id": 22,
+    "product_name": "Bird D612",
+    "price": 195.61,
+    "quantity": 73,
+    "brand": "Bird",
+    "category": "Feature phone",
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGOSURBVDjLlZPNapNBFIafSdOvtbFgSi1dREEtguDSnTfStbgW9A6y9BICinfkRosRFw1mE5BoS4rNzPlzEfOrYjJwOGfzPvO+h5kUEWx6zt6+eO1ur8x0VN9E+Ondyy/udlLdPua8d8ZBrdIZoN1uh7szLTOb9WePgxpOdXjMzXsnuDlx/gGRzAxgZrRaLQBSSks94iPNJ0+BRL4aYpKJcER0GbAqns5mhptRRgNMC1Aj3P50sChanFULboJpwbUAiXCnlPEcoKr/BJgWQhWXMnEQE4DKmNrfHKyW/L7ZJBNyzVGzR4RSSp4DFh2sOhEpmCpWMo0bPzi4NWR76xqR/0SYA8a4ZkwyF9+3cD0kl8HyEqeA1fwpJUrJuAouGRNhmOvgjkhZD6AynuxABdNMSnXcHdU1AUXyRCwZl0JKTsQGAJFJhL3mHVwFzT8hBpgpqdPpRLfbpd/vL73/xX56v0djf5+d3QbV7h7b1Q6jqwu+fn7/La3znd88v3tkpg/M5JGZPnS3Vq1enZrky19GcE/tIr8QhwAAAABJRU5ErkJggg==",
+    "rating": 3.6,
+    "reviews": 383,
+    "shipping_cost": 16.57,
+    "images": [
+      "https://robohash.org/delenitimagniperspiciatis.jpg?size=500x500&set=set1",
+      "https://robohash.org/velducimusrerum.jpg?size=500x500&set=set1",
+      "https://robohash.org/rerumametreprehenderit.jpg?size=500x500&set=set1",
+      "https://robohash.org/maiorescumqueofficia.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#9a7cda", "#b8ab64", "#6cd01d", "#c1a290"]
+  },
+  {
+    "id": 23,
+    "product_name": "Gionee Ctrl V4",
+    "price": 595.25,
+    "quantity": 87,
+    "brand": "Gionee",
+    "category": "Android 4.2",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHOSURBVDjLpZOxa1RBEIe/d/e8FKeFEA2IGBWCICZYBSESBCFglUDSCJZaRBBbK1HQ0s4/QQlCgoKdoBA9sVBshCBETCNRiUUg5PDt7MxY7HuXdxgEycKwyzJ88/vN7Gbuzl5WDvDozeZtd66p21EzQw2iGaqGmhPVaqFodNTs/f0rI+M5gLnfmB0/MPg/le88+TLWU6BmgwDtpevgDhrBFETSORQgAQoBEbZvvUJEB2qAqg8ORw6BxRQeS0gBUkAMsPIdAIm60wNVKwEZrG+AW1JilpRotQNDQwCEOiCWgIXhe1w+f/if3hffrXMhxH4Fooa5kzdT0rNPi3TWlrl6bp7PP1d4ufqCiyNTzIzOUYiz1RWCJECjsuBA3swAmBmdoxu6APza3uDB9EM6a8sAFFEJYsRoOwBRww3yxt+Su6FLq9nqAQuxst11QDTcnX2lhc7XVO3jtw8cOzjMzafzTJ26RJUL0B7Ia020dNlsJAsTJyaZODlZziVj+swsWZb1AarJJUCMeCnn8esfaWruiIKoEtQIkry3mlUx+qfg7owd389prd6+9/7CbsvMrfaQ/O3dhdWzQa0tUZGoaDREjahxV8Dm1u/nANlev/MfAjw0JrMu09AAAAAASUVORK5CYII=",
+    "rating": 1.2,
+    "reviews": 192,
+    "shipping_cost": 16.76,
+    "images": [
+      "https://robohash.org/doloribusdoloremquesit.jpg?size=500x500&set=set1",
+      "https://robohash.org/voluptatemexpeditavoluptatibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/odiofugaqui.jpg?size=500x500&set=set1",
+      "https://robohash.org/rerumexfuga.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#e18037", "#960ab4", "#046da5", "#ed13d1"]
+  },
+  {
+    "id": 24,
+    "product_name": "Philips T539",
+    "price": 564.33,
+    "quantity": 58,
+    "brand": "Philips",
+    "category": "Android 2.3",
+    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIzSURBVDjLpZNPSFRRFMa/NzPaPNSpsDQVF4JUi3YtomW0MBCchbSxhS3chAS6mJpFBYmugpjSRS5cWAQFSUmBGIYiCbYYbOyfOAqKgwgqRNF79953zzktxoEspyAvnM095/zOdy/fcUQE+zmhYomOl23J9mcXw/8N0J5u8z09+C+AU3hC58Tl+kDbVqODpkCb09UVNUeNMciuLt0b757q+ivgyuv2s4EOrteW1cZj0YOIlrpw4ECRxvsvGWSXlvpme9M39gKEN84s1xtt+o5XnojXHapDAAsWxpa3BUcc5NZz2NzYfLf+NV567lQs+8cfKN+0HnNr4pVlR6CshlYai6tZGN8inZnD4kJ2YO7ux2sAUjef5NzfARHlqabyynIoq/DN+47x6fE1rYKRQJvzRgfpD/cXrgIAszSySAJAz24Fnr7wNjOD529eYGxyDL6nR2Z7093KN0+1CjoKhcwMIk4mhlcadkkQkaLxYNJvGJjwRkUEiYcr0v8qJ11Dy6O/1uzpg6Fp5Q5OqVuW5JMlaQEAIoYbBg6XhVs6BxebixppaFo1W8Z8VYVz+2R1xLWU94klxg9FiIYBaznV0f/ZBYBIoXF4RjdYklTMdVoqDjgoCQOBFRDn89YyfMMgZlTFShrXtv0EgJ7I41njWpKEJUlWx0JueakDQwITACQAcV4BEUGZEAqKiDh56U7mUcSSzFuSRsvA6jbBksBSfjKxYKcflhgr2wpMvHMvLrOknP2u80/X2WfmmbX8IwAAAABJRU5ErkJggg==",
+    "rating": 2.9,
+    "reviews": 852,
+    "shipping_cost": 41.71,
+    "images": [
+      "https://robohash.org/quinemoipsa.jpg?size=500x500&set=set1",
+      "https://robohash.org/liberocommodiex.jpg?size=500x500&set=set1",
+      "https://robohash.org/odionullafugit.jpg?size=500x500&set=set1",
+      "https://robohash.org/auttemporaest.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#799c11", "#bd963c", "#cfeed1", "#f596be"]
+  },
+  {
+    "id": 25,
+    "product_name": "BLU C5 LTE",
+    "price": 732.49,
+    "quantity": 5,
+    "brand": "BLU",
+    "category": "Android 6.0",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKqSURBVDjLpVNNT1NBFD3z3uvHo339gFZoCxpqRAlBJayMG4wLl2hYqT/AhQsT1xoTV65cEFeiG5MuJLpAJTEmWo26oBbUhSIfEUhLsLUt0NL2fc44r0UDhh2T3NyZ5M6Zc8+ZSxhj2M8SsM8l3RybSrpblIFCxfBsqaZAOSEKBotvKGdn8aC0ed4OBmIZRm2zkPmxuCiFg/6uK8M9Ps1gxO0Sd6GT//ekmeuaKdY1K3rxjqYK+bIZ101KEsk1ZAo6qhrDSpEiU6LIblCsbVLkKwyFKoNhAdmijtEXa1ivaoIS7josVDWLuBwCYhEfXk3nsbFloN1H4OBknCKBU7IDCMgExbKO8Q85BFp9aAu4GpyEmmo2KMY7vOhs9+FlOo/1ioGQV2hcdNpAW5+Qm76FiY8/EWrzIR7zgmybJ1RVq6kmL4xHvQgHW/D4bQalig6/m8AjqSgtjEMJ9aNPft+okaUdNlbrTQaEq2MaJtwSxcFYAJOpPLIFFauzE1DCA/BFBhCuvYOzNtdg9ldZoaZZsNnouolcqYKudgUn4kEcORRE+vscaiuT/PUArPIzRPsvQVhOgBoaGv+PERvAZLa/+SK/HFbg9zg5RYLuAzKOS68R6T0PqDNIPUrAG6jDVUxBXXnDrTQ4AGVCtbS6rHEfj3XKLBoU0OqxuIAWlFoabrMEJVgD1ZbsYlhczO6h62j7lUAuX1LLv7NLpO/C3aSzNX7SpXg8kkskElfTwXW4Fnkonj47TNyOKVA9u92zA6JnELkFAYnk/Gbia/wz2WuYZu4PXQ31Dt/r6JH5qyner47pp7MYHOkFEf2AfA7pBzfyjNIzewKkRk9l+y8nYqKwDGau22rtmj9RPorcty+Yf377ibTXhJma7p4ZG6lzjXjrdEewfxl2ZqzjD9JZU0+1XOyXAAAAAElFTkSuQmCC",
+    "rating": 1.6,
+    "reviews": 375,
+    "shipping_cost": 25.56,
+    "images": [
+      "https://robohash.org/voluptastemporibusab.jpg?size=500x500&set=set1",
+      "https://robohash.org/laboruminperferendis.jpg?size=500x500&set=set1",
+      "https://robohash.org/evenietininventore.jpg?size=500x500&set=set1",
+      "https://robohash.org/culpaisteaccusantium.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#3fe11a", "#18dd4d", "#38469e", "#041e03"]
+  },
+  {
+    "id": 26,
+    "product_name": "Sagem SG 321i",
+    "price": 254.6,
+    "quantity": 24,
+    "brand": "Sagem",
+    "category": "Feature phone",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKbSURBVDjLpZNdSNNRGMb/EcjsxiCkMKhGCEaxTAoh60qyIiKaiDTNUklTWatwoLnSbbiaa5vDMefGcv/+29gHa3ObqWvpprTp5kckrpvu2q0XhVZU7OlsF2I32sfFe/G85zy/l/c5HAoA9T+15eHS0lJOIpHI/ScA//liXYd55vOLUGxN6l1Zu8ssNPwxgJgr2x3zENpnofC9Q3fgPTK6VhGo3BZAzBy+OQbpqxXclDnh9o+/FZhmsrpO4cWle3rOloDX01F7ryWMRs0oRBrbfKb3aMg7m9H3n9qg1Oi0vwGWl5f1JKwkCSsZjUY/RCKR9OrqKoYY97e5uTk4HA6QHmQa4xdyF2q1el0ulyclEklSJBJFMklrU6kUCADhcJgbi8UQCARioVAIdru92ufzwWg0VvGZMtwaPgG9QQexWFyTAQuFwo8UmXI4Ho9jamqqYGJiguX3+0vcbvc+m83GMZvNeQaDoXhgYGB343DJV7Gfh2p9Ee6I69kEAoFAMJrdY3Jy8hMBgEzjBoNBWK3W6wLrWfCZ0nQzfRL1puNpkacKzoQG7a4rOKfemzbRRrS0tHRkAWNjY+MjIyMFTqeTZbFYOCaTKb+NKYV3UQf3gjZrtCf60R9qBx3rw21rBU49ZoHXyq3MAjweD5cAwDAM1+VyQafTXWsk+2bMqqAA8vE29L5sQo+/HpLRZuinpag1n0FhN/Vz4zlomv5BwmJptdoilUq1p8Z4BI54P6yzStDRPjx784RAWjE4LUGT9QIKu3K+7++kijcAJCyQsKBUKiGTyXB1kI2Lmv0oV+ejTJGHuuHT0EV60MBUoPBBLi43nA9v+5k211HpjvUbdDkOdlGpQ8Jdx3g8Xs5fAdgPqfUDXTuR30mxN/d/AaKgrAVJC0Z9AAAAAElFTkSuQmCC",
+    "rating": 4.0,
+    "reviews": 277,
+    "shipping_cost": 0.14,
+    "images": [
+      "https://robohash.org/voluptatibusestnon.jpg?size=500x500&set=set1",
+      "https://robohash.org/assumendamollitiaaut.jpg?size=500x500&set=set1",
+      "https://robohash.org/nullaetaut.jpg?size=500x500&set=set1",
+      "https://robohash.org/explicabomodiinventore.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#81c8b6", "#6f1270", "#c795be", "#831170"]
+  },
+  {
+    "id": 27,
+    "product_name": "Philips Xenium X830",
+    "price": 258.19,
+    "quantity": 54,
+    "brand": "Philips",
+    "category": "Feature phone",
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKoSURBVDjLpZLbT5JhHMdZ1/VP1Cqrtco21kU3zevWVa3NXOuuedVmoU2jUR6CoRwcw1SYHIzJQQxBUXgLXg6Ga+mIwkBBBp08pYGvEOa393nbWC5Xa1389mzPnu/v+/t+nh8PAO9/6p8FBoMBWq0Wvb29UKlU13ihUAikAoEAfD4fKIrC5OQkxsfHMTo6CrvdDovFApPJBL1ez70tl8vI5XKQy+UxXjAYxPb2Nkql0h8rn89Do9G839jYwNzcHGQyWVoikdTzaJrmLrLZLKamppDJZEDu0uk0PB4PkskknE4n98ZqtSIWi3ETicXimgoDr9eLcDgMl8vF9/v9sNlsfCI2Go18EqOvr49PxEqlkj84OMjlb21trao0cLvdiEajHINUKsUxIM5EHI/HQTmUmKcFGHqixezsLHGHUCjcv+sXRkZGUCgUMDExAZY03+FwECf+sNWEhLs2vZq0YMZeZ+zv7ydi/PaNbK6W6elpJBIJEDFxNpvNiIdUWI4bUS7M4/XwFbwKO9DU1LSz5x7odDpCGj09Peju7kafqg1R62UUl50ofujC2oILkaGbENxp2PnrIr21Xdr3xnzRsPLOimL2AehHZ/Ft1YoZbQ1kwutfdzUYGBg4ypJ+rFarCWl0dnZCIxcgTTWjtKQHM38DdMcZbGUasZ4ag6frwveI4tyBSgMWVgs5FQrFLalUuigVtzWwTi+/sOC2Fm9jM3H1ZyXr2ChyZPxKhCTVwkoDdqdb2LXkFiUSiWBM14wM3YXSJzXnvpmsZSNUcyeTqgfz8Snohyc/+0Unju/K3d7eDpFIhJD8/DqzsoDSGoXiEstgyfJL2VDOx5B7YcSz5iOWPQGy460EO04zgbZTDOvEsE6M7/4x5vm9KoYVMdTdwwzVeIjxCg4GfgDxYPxXmKLFvgAAAABJRU5ErkJggg==",
+    "rating": 1.2,
+    "reviews": 168,
+    "shipping_cost": 43.07,
+    "images": [
+      "https://robohash.org/iuresuntamet.jpg?size=500x500&set=set1",
+      "https://robohash.org/deleniticumquequisquam.jpg?size=500x500&set=set1",
+      "https://robohash.org/abeataetemporibus.jpg?size=500x500&set=set1",
+      "https://robohash.org/accusamusblanditiiscorrupti.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#8245ac", "#9ba9f8", "#6c933f", "#5a4280"]
+  },
+  {
+    "id": 28,
+    "product_name": "Samsung M310",
+    "price": 254.81,
+    "quantity": 27,
+    "brand": "Samsung",
+    "category": "Feature phone",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFwSURBVBgZpcG9apNhHMbh3/ORWiztpLSrQ86gmw6egkuXjE7i5CQ0OAZxUSj0DCxiB8/A07BDBXEoKEoGbaP45n/f9im+SwhCyXUl26wiPXjy9vG9+7svpjNv2ICEJUKBZWThCGTjCEJia627ODk5e/ru5d5h3b27ezBY38jb61zHxsUsDoDDOuucZ9NzrutX50yz//rUy4zffPT/PHz+3peotmjGR6f0JqMhven5b2JuYm7C4k+YOzubhIImY9PbvrXJoloqdZCpNzJra5Wbg0qjedDUUND7+v0ni0qGnAo1QSQTWTQK0VTLNJPRkGVKAiVwAnKiqNBIQVOloBkfndKbjIb0Us1UCRkyoMQVSTR53nX0dm5vsSgDKWdKyaScyIUr825OUx2i9+XbDxbllGgElJSwRGOJpkqimYyGLFNSoin8UwqNbJp69unz8aNX3Z4iUIiIQBLRdYyefUA2VuAwsrCERHPMpWSbVWRW9Bcyl/ydiZeC0gAAAABJRU5ErkJggg==",
+    "rating": 2.7,
+    "reviews": 275,
+    "shipping_cost": 24.27,
+    "images": [
+      "https://robohash.org/namquasia.jpg?size=500x500&set=set1",
+      "https://robohash.org/quiadoloresanimi.jpg?size=500x500&set=set1",
+      "https://robohash.org/aatquaerat.jpg?size=500x500&set=set1",
+      "https://robohash.org/cupiditateutquasi.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#765331", "#b0376c", "#31a5fa", "#e45858"]
+  },
+  {
+    "id": 29,
+    "product_name": "Philips 659",
+    "price": 388.66,
+    "quantity": 73,
+    "brand": "Philips",
+    "category": "Feature phone",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKmSURBVDjLjZPdS5NRHMf3D+h9XXVZRGBXBpYEdSGUaNkLoZWPmNNEI4tekMg0c+HKGLoldhFuBa2bKSm57WI2Wcryhfm4t/biptNRc29uzu2Z+/acU4+Y3njgy++cH+f7Ob/zJgIg2imTyVRkMBh6dTrdzMjIyG+NRhNRq9UOlUql+KBUnN49f7tjNpvzeLOcN2f8fj/C4TDi8TiSySRisRhsNisUfZ1cv7xD2SuT5P8H+Gf+6na7kcvlkEqlQCA+nw+hUAjZbBa57Aa4DQcM+o/ofvnQKOl6kr8NICsTcyaTAWkcx4GMXS4XotEohaY3VrCZsGJr8ye0o+/R/rRJSQG8+QRf9lYikaCG9fV1CgkEArDb7SD5bJZDMmZHOmGjVWR4tdyt37p/r7FIxJvlS0tLIHI4HNRE9kxAq6urtJ/ejPEAljf6+f4aX2EaRqMRYrFYLiooKMB+Rc6GgCORCDweDxiGmaMAlmXhdDoxMTGBwcFBOpnE5eVlmhdy5GC9Xi8WFxcRDAZRWVkZogAySTARCBHJCXkhmha8mGJdVHbfCi5UXFnbAyASzDsBZcxZtChuou51GW5IStCh7ERJ2SXrni0IIBKFLXS+fYxnnxl8Yfswt6JFj+42rvYcwynmqGVfh1j1/AyG5t9gyCqjVyzV30KPXozCxgNp+pBkMpl8fHwcwSh/lQELrL5ZzHt+YNY5hWm7Cedbj2OUfYedbdjSRwB/37NUKs3reNGu/zSsgueXjUIIYMY5iWnHdxTfOYRubQ26tNXU3DVWLVSQ2v5MbW1teY9aHww0NNdxmjE1Jue/UYjFbUbrQD0qpIfxSltLVyaRjHmAVLT7ezY3N52sa6jtv15TxV6+djFcXlEaLi0/xxYzR2YLGw8mSdm84rwkZP4fYOfdUwjREaAAAAAASUVORK5CYII=",
+    "rating": 4.8,
+    "reviews": 103,
+    "shipping_cost": 39.91,
+    "images": [
+      "https://robohash.org/atquecumea.jpg?size=500x500&set=set1",
+      "https://robohash.org/nemodolorumet.jpg?size=500x500&set=set1",
+      "https://robohash.org/aspernaturquaenihil.jpg?size=500x500&set=set1",
+      "https://robohash.org/explicaboharumeveniet.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#c40ee8", "#a3cfc6", "#343231", "#7fd82a"]
+  },
+  {
+    "id": 30,
+    "product_name": "Huawei P8max",
+    "price": 526.38,
+    "quantity": 75,
+    "brand": "Huawei",
+    "category": "Android 5.0.2/5.1.1, up to 6.0, EMUI",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALvSURBVBgZBcFNaNUFAADw3//jbe/t6d6cc2/kUpeXsEgUsSSiKIzAQxDdvCgdulgagmBXLx4K7BgRWamnOgSDIj3EusRangwlbVvOyba25tvH23v/z36/oCxLcOr7uaO48sxA9Vg7LbTTQloUtrKihXUsI8cqVvAtfo4Biix78eDItmPnX90FADaTotFOisZqJx9NUta7udnlDT/+vXkc52KAIsua/T0BmHuSqwSBOCCK6a2E9vSGojBUiTg0WvNUoz74xeTjT0OAPE376zFZwXoSaKU86dLq0OqwssXSRg4uXn/o2Fjd80OVXTFAnqaD23tCm102O7kwDMSIIsKISCAKKBDka36bXnX7YetxDJAnSbNRi7S2Mu1uKQxLUUiYB6KQSCmKUEYW17o+u/lgDadigCxJ9jb7K1qdUgYlUR4IS+RsPfhFliaeGzkhr+SyJBv74aOX/wsB8qS7d6TRazMpBSFREAjWH0lmflV21lR7e/T19fl3acmbAw+9MzT7CQRlWXrr0k+1OArb3104bvKfVKEE6fSEffv2mZ+f12w2hWFodnbW6Oio8fFxRVHUY8i6ya56vSoMKKAkCAi279bpdCwvL5uYmFCr1Rw4cEC73Vav1786c+ZMO4Q86fbFCnFIFAYEoY17tzSiTcPDw+7fv+/1kxe9e/q8R/PzRkZG7N+///Tly5fL+JVz14dw6eizeyyslWYXc/UqnVZLFEWazabh4WG1Kv19lGVgfX3d3Nyc6elpcZ4kb+DEH3dnrG7FNrqlNC8V2UEjG/MGBxeMjY2ZHP/aVFDa8/RuKysr7ty58yUuxHmaHn77tRdqH598CQDkJde+mcKAhYUFRw4f1Ol0zMzMaDQa8F6tVns/ztN0ZmG55drNuwa21Qz0Vw3UezXqvQYGh1y9etUHH5419fukxcVFy2XTrVufl1mW3bxx40YeHDp5ZQjnsBc7sRM7sAONak+lUq1WHKrds7S05M/yyF84efva2Sn4HxcNUm7wsX3qAAAAAElFTkSuQmCC",
+    "rating": 2.3,
+    "reviews": 467,
+    "shipping_cost": 38.84,
+    "images": [
+      "https://robohash.org/nonconsequaturvero.jpg?size=500x500&set=set1",
+      "https://robohash.org/situtaliquid.jpg?size=500x500&set=set1",
+      "https://robohash.org/veniamnisipossimus.jpg?size=500x500&set=set1",
+      "https://robohash.org/aperiamquicupiditate.jpg?size=500x500&set=set1"
+    ],
+    "color": ["#42f137", "#99ceb4", "#d0fac4", "#f4ae54"]
+  }
+]
+

@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "a678",
+      "brand_name": "b",
+      "model_name": "b",
+      "cover_image": "b",
+      "images": [],
+      "price": "b",
+      "stock": "b",
+      "color": [],
+      "storage": [],
+      "ram": [],
+      "processor": "",
+      "camera_rear": "",
+      "camera_front": "",
+      "display": "",
+      "battery": "",
+      "rating": "b",
+      "rating_count": ""
+    },
+    {
+      "id": "73c6",
+      "brand_name": "c",
+      "model_name": "c",
+      "cover_image": "c",
+      "images": [],
+      "price": "c",
+      "stock": "c",
+      "color": [],
+      "storage": [],
+      "ram": [],
+      "processor": "",
+      "camera_rear": "",
+      "camera_front": "",
+      "display": "",
+      "battery": "",
+      "rating": "cc",
+      "rating_count": ""
+    }
+  ]
+}
