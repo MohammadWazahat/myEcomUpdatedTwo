@@ -1,24 +1,26 @@
 {
   "users": [
     {
-      "id": "6450",
-      "brand_name": "a",
-      "model_name": "a",
-      "cover_image": "a",
+      "id": "9bd8",
+      "brand_name": "g",
+      "model_name": "g",
+      "cover_image": "g",
       "images": [],
-      "price": "12",
-      "stock": "23",
-      "color": "a",
-      "storage": "a",
-      "ram": "a",
-      "processor": "a",
-      "rating": "a",
-      "rating_count": "a",
-      "description": "a",
-      "camera_rear": "a",
-      "camera_front": "a",
-      "display": "a",
-      "battery": "a"
+      "price": "45",
+      "stock": "12",
+      "color": "g",
+      "storage": "g",
+      "ram": "g",
+      "processor": "g",
+      "rating": "g",
+      "rating_count": "g",
+      "description": "g",
+      "camera_rear": "g",
+      "camera_front": "g",
+      "display": "g",
+      "battery": "g",
+      "amount": 3,
+      "cartQuantity": 0
     },
     {
       "id": "9bd8",
@@ -38,7 +40,9 @@
       "camera_rear": "g",
       "camera_front": "g",
       "display": "g",
-      "battery": "g"
+      "battery": "g",
+      "amount": 3,
+      "cartQuantity": 3
     },
     {
       "id": "a8d9",
@@ -58,7 +62,9 @@
       "camera_rear": "j",
       "camera_front": "j",
       "display": "j",
-      "battery": "j"
+      "battery": "j",
+      "amount": 5,
+      "cartQuantity": 5
     }
   ]
 }

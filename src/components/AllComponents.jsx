@@ -68,7 +68,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-        <AdminAddProduct/>
+        <AdminAddProduct />
         <Footer />
       </>
     ),
@@ -78,7 +78,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-       <AdminGetAllProducts/>
+        <AdminGetAllProducts />
         <Footer />
       </>
     ),
@@ -88,7 +88,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-       <AdminReadSingleProduct/>
+        <AdminReadSingleProduct />
         <Footer />
       </>
     ),
@@ -98,12 +98,11 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-       <AdminUpdateProduct/>
+        <AdminUpdateProduct />
         <Footer />
       </>
     ),
   },
-
 ]);
 
 const AllComponents = () => {

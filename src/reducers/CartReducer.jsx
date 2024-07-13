@@ -1,20 +1,98 @@
 const CartReducer = (state, action) => {
-  if (action.type === "ADD_TO_MY_CART") {
-    // console.log(state.cart);
+  if (action.type === "SET_LOADING") {
     // console.log(action.payload)
-    const newCartData = {
-      id: action.payload.pay1.id,
-      quantity: action.payload.pay1.quantity,
-      price : action.payload.pay1.price,
-      product_name: action.payload.pay1.product_name,
-      images: action.payload.pay1.images,
-      amount: action.payload.pay2,
-    };
     return {
       ...state,
-      cart: [...state.cart, newCartData],
+      isLoading: true,
     };
   }
+
+  if (action.type === "SET_CART_DATA") {
+    // console.log(action.payload)
+    return {
+      ...state,      
+      isLoading: false,
+      isError: false,
+      cartProducts : action.payload ,
+
+    };
+  }
+
+  if (action.type === "SET_ERROR") {
+    // console.log(action.payload)
+    return {
+      ...state,
+      isLoading: false,
+      isError: true,
+    };
+  }
+
+  
+  if (action.type === "DEC_AMOUNT") {
+    console.log(action.payload)
+    let updatedCart = state.cartProducts.map((item) => {
+      // console.log("i m updated");
+      console.log(item);
+      if (item.id == action.payload) {
+        // console.log(item);
+        let decAmount = item.stock - 1;
+        if (decAmount <= 1) {
+          decAmount = 1;
+        }
+        return {
+          ...item,
+          stock : decAmount,
+        };
+      } else {
+        return item;
+      }
+    });
+    return {
+      ...state,
+      cartProducts : updatedCart,
+    };
+  }
+
+  if (action.type === "INC_AMOUNT") {
+    let updatedCart = state.cart.map((item) => {
+      // console.log("i m updated");
+      if (item.id == action.payload) {
+        // console.log(item);
+        let incAmount = item.amount + 1;
+        if (incAmount >= item. stock ) {
+          incAmount = item. stock ;
+        }
+        return {
+          ...item,
+          stock  : incAmount,
+        };
+      } else {
+        return item;
+      }
+    });
+    return {
+      ...state,
+      cartProducts : updatedCart,
+    };
+  }
+
+
+  // if (action.type === "ADD_TO_MY_CART") {
+  //   // console.log(state.cart);
+  //   // console.log(action.payload)
+  //   const newCartData = {
+  //     id: action.payload.pay1.id,
+  //     quantity: action.payload.pay1.quantity,
+  //     price : action.payload.pay1.price,
+  //     product_name: action.payload.pay1.product_name,
+  //     images: action.payload.pay1.images,
+  //     amount: action.payload.pay2,
+  //   };
+  //   return {
+  //     ...state,
+  //     cart: [...state.cart, newCartData],
+  //   };
+  // }
 
   if (action.type === "ADD_MORE_TO_MY_CART") {
     // console.log(state);
@@ -60,70 +138,25 @@ const CartReducer = (state, action) => {
     }
   }
 
-  if (action.type === "DELETE_CART_ITEM") {
-    // console.log(action.payload)
-    const updatedCart = state.cart.filter(
-      (item) => item.id !== action.payload.pay1
-    );
-    // console.log(updatedCart);
-    return {
-      ...state,
-      cart: updatedCart,
-    };
-  }
+  // if (action.type === "DELETE_CART_ITEM") {
+  //   // console.log(action.payload)
+  //   const updatedCart = state.cart.filter(
+  //     (item) => item.id !== action.payload.pay1
+  //   );
+  //   // console.log(updatedCart);
+  //   return {
+  //     ...state,
+  //     cart: updatedCart,
+  //   };
+  // }
 
-  if (action.type === "DELETE_ALL_CART_ITEM") {
-    return {
-      ...state,
-      cart: [],
-    };
-  }
+  // if (action.type === "DELETE_ALL_CART_ITEM") {
+  //   return {
+  //     ...state,
+  //     cart: [],
+  //   };
+  // }
 
-  if (action.type === "DEC_AMOUNT") {
-    let updatedCart = state.cart.map((item) => {
-      // console.log("i m updated");
-      if (item.id == action.payload) {
-        // console.log(item);
-        let decAmount = item.amount - 1;
-        if (decAmount <= 1) {
-          decAmount = 1;
-        }
-        return {
-          ...item,
-          amount: decAmount,
-        };
-      } else {
-        return item;
-      }
-    });
-    return {
-      ...state,
-      cart: updatedCart,
-    };
-  }
-
-  if (action.type === "INC_AMOUNT") {
-    let updatedCart = state.cart.map((item) => {
-      // console.log("i m updated");
-      if (item.id == action.payload) {
-        // console.log(item);
-        let incAmount = item.amount + 1;
-        if (incAmount >= item.quantity) {
-          incAmount = item.quantity;
-        }
-        return {
-          ...item,
-          amount: incAmount,
-        };
-      } else {
-        return item;
-      }
-    });
-    return {
-      ...state,
-      cart: updatedCart,
-    };
-  }
 
 if (action.type === 'CHECK_CART'){
   let updateItemVal = state.cart.reduce((initialVal , item )=>{

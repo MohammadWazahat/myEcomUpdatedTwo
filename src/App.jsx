@@ -3,19 +3,16 @@ import AllComponents from "./components/AllComponents";
 import "./App.css";
 import DataProvider from "./contexts/AllDataContext";
 import SortAndFilterProvider from "./contexts/SortAndFilterContext";
-import HomeProvider from "./contexts/HomeContext";
 import CartProvider from "./contexts/CartContext";
 
 const App = () => {
   return (
     <div>
       <DataProvider>
-        <SortAndFilterProvider>
-          <HomeProvider>
+        <SortAndFilterProvider>        
             <CartProvider>
               <AllComponents />  
-            </CartProvider>
-          </HomeProvider>
+            </CartProvider>          
         </SortAndFilterProvider>
       </DataProvider>
     </div>

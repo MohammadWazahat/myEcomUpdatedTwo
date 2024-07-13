@@ -14,12 +14,13 @@ const AdminAddProduct = () => {
     storage: [],
     ram: [],
     processor: "",
+    rating: "",    
+    rating_count: "",
+    description : "",
     camera_rear: "",
     camera_front: "",
     display: "",
     battery: "",
-    rating: "",
-    rating_count: "",
   });
 
   const handleChange = (e) => {
@@ -153,6 +154,176 @@ const AdminAddProduct = () => {
               required
               placeholder="rating"
               name="rating"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="color"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              color
+            </label>
+            <input
+              type="text"
+              id="color"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="color"
+              name="color"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="storage"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              storage
+            </label>
+            <input
+              type="text"
+              id="storage"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="storage"
+              name="storage"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="ram"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              ram
+            </label>
+            <input
+              type="text"
+              id="ram"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="ram"
+              name="ram"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="processor"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              processor
+            </label>
+            <input
+              type="text"
+              id="rating"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="processor"
+              name="processor"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="rating_count"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              rating_count
+            </label>
+            <input
+              type="text"
+              id="rating_count"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="rating_count"
+              name="rating_count"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="description"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              description
+            </label>
+            <input
+              type="text"
+              id="description"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="description"
+              name="description"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="camera_rear"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              camera_rear
+            </label>
+            <input
+              type="text"
+              id="camera_rear"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="camera_rear"
+              name="camera_rear"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="camera_front"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+             camera_front
+            </label>
+            <input
+              type="text"
+              id="camera_front"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="camera_front"
+              name="camera_front"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="display"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              display
+            </label>
+            <input
+              type="text"
+              id="display"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="display"
+              name="display"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="battery"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              battery
+            </label>
+            <input
+              type="text"
+              id="battery"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="battery"
+              name="battery"
               onChange={handleChange}
             />
           </div>

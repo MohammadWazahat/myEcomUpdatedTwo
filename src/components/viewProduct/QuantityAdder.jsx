@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { AllDataContext } from "../../contexts/AllDataContext";
 
-const QuantityAdder = (viewData) => {
-  // console.log(viewData.quantity)
+const QuantityAdder = () => {
+
   const { setDecrease, setIncrease, amount } = useContext(AllDataContext);
 
   return (

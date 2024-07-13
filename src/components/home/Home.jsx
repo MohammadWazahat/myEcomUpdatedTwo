@@ -1,20 +1,31 @@
-import React, { useContext } from "react";
-import { HomeContext } from "../../contexts/HomeContext";
-import ProductByBrand from "../productByBrands/ProductByBrand";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { SortAndFilterContext } from "../../contexts/SortAndFilterContext";
 
 const Home = () => {
-  const { arr, FilterByBrand } = useContext(HomeContext);
+  const { products } = useContext(SortAndFilterContext);
+  // console.log(products)
+
+  const newData = products.map((item) => {
+    return item.brand_name;
+  });
+  // console.log(newData);
+
+  // to merge all array in one
+  const x = newData.flat();
+  //   console.log(x)
+  const Y = [...new Set(x)];
+  // console.log(Y);
 
   return (
     <div>
       <div className="flex flex-col ">
-        {arr.map((item, index) => {
+        {Y.map((item, index) => {
           return (
             <div key={index}>
               <div
                 className=" flex border border-slate-700 m-6 mx-12 h-48 justify-center items-center "
-                onClick={() => FilterByBrand(item)}
+                // onClick={() => FilterByBrand(item)}
               >
                 <div className="textColorDark text-2xl">{item}</div>
               </div>
@@ -27,9 +38,6 @@ const Home = () => {
           <button className=" p-3 px-5 m-2 ">Shop Now</button>
         </NavLink>
       </div>
-      {/* <div>
-        <ProductByBrand />
-      </div> */}
     </div>
   );
 };

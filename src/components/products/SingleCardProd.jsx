@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from 'react'
 
-const SingleProduct = (item) => {
-  // console.log(item)
+const SingleCardProd = (item) => {
   return (
     <div className=" m-1 border border-slate-700 rounded-3xl">
       <div className=" p-2 border border-slate-700 ">
@@ -16,7 +15,9 @@ const SingleProduct = (item) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SingleProduct;
+export default SingleCardProd
+
+

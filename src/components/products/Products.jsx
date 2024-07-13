@@ -1,11 +1,9 @@
-import React, { useContext, useEffect, useReducer, useState } from "react";
+import React, { useContext, useState } from "react";
 import { AllDataContext } from "../../contexts/AllDataContext";
-import SingleProduct from "../singleProduct/SingleProduct";
 import { NavLink } from "react-router-dom";
-import "./Products.css";
 import { SortAndFilterContext } from "../../contexts/SortAndFilterContext";
 import { CartContext } from "../../contexts/CartContext";
-import axios from "axios";
+import SingleCardProd from "./SingleCardProd";
 
 const Products = () => {
   const { AddToPage } = useContext(AllDataContext);
@@ -13,20 +11,16 @@ const Products = () => {
 
   const [mode, setMode] = useState(true);
   const {
-    state,
     SortAscRed,
     SortDescRed,
     SortLowestRed,
     SortHighestRed,
-    AllProducts ,
-    arr,
-    newData,
+    AllProducts,
     Y: Y,
     productsByBrand,
     FilterByBrand,
     isLoading,
     isError,
-    products,
   } = useContext(SortAndFilterContext);
 
   // console.log(state)
@@ -58,12 +52,11 @@ const Products = () => {
             );
           })}
         </div>
-        <div><button
-                className="m-2 p-2"
-                onClick={() => AllProducts()}
-              >
-                All Products
-              </button></div>
+        <div>
+          <button className="m-2 p-2" onClick={() => AllProducts()}>
+            All Products
+          </button>
+        </div>
         <hr className="horizon boder border-slate-800 mx-4" />
         <div className="flex gap-4 m-2 p-4">
           <button className="p-3 px-8" onClick={() => setMode(true)}>
@@ -97,10 +90,10 @@ const Products = () => {
               : `flex flex-col gap-4 mx-16 `
           }
         >
-          { productsByBrand.map((item) => {
+          {productsByBrand.map((item) => {
             return (
               <div className="brd m-4 my-8" key={item.id}>
-                <SingleProduct {...item} />
+                <SingleCardProd {...item} />
                 <div className="flex justify-center items-center gap-4 m-2 p-2 ">
                   <button
                     className="flex justify-center items-center p-2 px-8"

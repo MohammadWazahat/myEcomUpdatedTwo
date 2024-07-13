@@ -9,8 +9,8 @@ const StarRating = (viewData) => {
   const ratingStar = Array.from({ length: 5 }, (elem, index) => {
     let number = index + 0.5;
     return (
-      <div>
-        <span key={index}>
+      <div key={index}>
+        <span >
           {stars >= index + 1 ? (
             <div>
               <FaStar />
