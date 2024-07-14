@@ -21,6 +21,7 @@ const AdminAddProduct = () => {
     camera_front: "",
     display: "",
     battery: "",
+    amount : 1 ,
   });
 
   const handleChange = (e) => {

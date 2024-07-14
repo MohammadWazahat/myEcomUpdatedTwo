@@ -1,12 +1,5 @@
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-  useState,
-} from "react";
+import React, { createContext, useEffect, useReducer } from "react";
 import reducer from "../reducers/CartReducer";
-import { AllDataContext } from "./AllDataContext";
 import axios from "axios";
 
 export const CartContext = createContext();
@@ -45,7 +38,7 @@ const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const AddToMyCart = (x) => {
-    console.log({ ...x, cartQuantity: 0 });
+    // console.log({ ...x, cartQuantity: 0 });
     const newComp = state.cartProducts.find((item) => item.id == x.id);
     if (!newComp) {
       axios
@@ -55,7 +48,7 @@ const CartProvider = ({ children }) => {
         })
         .catch((err) => console.log(err));
     } else {
-      console.log("data alredy exist");
+      // console.log("data alredy exist");
       // console.log(newComp.amount)
       axios
         .put(`http://localhost:3011/users/` + x.id, {
@@ -85,7 +78,7 @@ const CartProvider = ({ children }) => {
   // For deleting All items from the cart by delete All button
   const deleteAllCartItems = () => {
     console.log("i m clicked");
-    // dispatch({ type: "DELETE_ALL_CART_ITEM" });
+    dispatch({ type: "DELETE_ALL_CART_ITEM" });
   };
 
   const AddMoreToMyCart = (x) => {
@@ -100,7 +93,7 @@ const CartProvider = ({ children }) => {
         })
         .catch((err) => console.log(err));
     } else {
-      console.log("data alredy exist");
+      // console.log("data alredy exist");
       // console.log(newComp.amount)
       axios
         .put(`http://localhost:3011/users/` + x.id, {
@@ -112,8 +105,6 @@ const CartProvider = ({ children }) => {
         });
     }
   };
-
-
 
   const increaseAmount = (id) => {
     console.log("i m clicked");
@@ -161,43 +152,17 @@ const CartProvider = ({ children }) => {
             location.reload();
           });
       }
-    });   
+    });
     // dispatch({ type: "DEC_AMOUNT", payload: id });
   };
 
-
-  //To Save cart data during refreshes in local storage
-  // const getLocalCartData = () => {
-  //   const cartData = localStorage.getItem("myCart");
-  //   if (cartData == []) {
-  //     return [];
-  //   } else {
-  //     return JSON.parse(cartData);
-  //   }
-  // };
-
-  // For adding item in the cart from view page
-
-  // For deleting Single item from the cart by delete button/icon
-
-  //To Save cart data during refreshes in local storage
-  // useEffect(() => {
-  //   // console.log("hey guys")
-  // //  console.log(state.myData)
-  // dispatch ({ type : 'CHECK_CART' });
-  // dispatch ({ type : 'CART_TOTAL_PRICE' });
-  //   localStorage.setItem("myCart", JSON.stringify(state.cart));
-  // }, [state.cart]);
-
-  // const checkCart = () =>{
-  //   console.log("i m clicked")
-  //   dispatch ({ type : 'CHECK_CART' })
-  // }
-
-  // useEffect(()=>{
-  //   dispatch ({ type : 'CHECK_CART' });
-  //   dispatch ({ type : 'CART_TOTAL_PRICE' });
-  // },[state.cart])
+  useEffect(() => {
+    // console.log("hey guys")
+    //  console.log(state.myData)
+    
+    dispatch({ type: "CHECK_CART" });
+    dispatch({ type: "CART_TOTAL_PRICE" });
+  }, [state.cartProducts]);
 
   return (
     <CartContext.Provider
@@ -209,7 +174,6 @@ const CartProvider = ({ children }) => {
         deleteAllCartItems: deleteAllCartItems,
         increaseAmount: increaseAmount,
         decreaseAmount: decreaseAmount,
-        // checkCart : checkCart ,
       }}
     >
       {children}

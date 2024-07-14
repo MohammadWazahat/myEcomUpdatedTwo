@@ -1,6 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
-import axios from "axios";
 
 const Cart = () => {
   const {
@@ -17,17 +16,6 @@ const Cart = () => {
   const data = state.cart;
   const myCartData = state.cartProducts;
   // console.log(myCartData);
-  // const [cartData , setCartData ] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const res = await axios.get("http://localhost:3010/users");
-  //     setCartData(res.data);
-  //   };
-  //   fetchData();
-  // }, []);
-
-  // console.log(myUser);
 
   if (state.isLoading) {
     return <div>...Loading</div>;
@@ -49,7 +37,6 @@ const Cart = () => {
                   <img className="h-16 w-16 " src={item.images[0]} alt="" />
                 </div> */}
                 <div className="brd p-2  ">Model name {item.model_name}</div>
-                {/* <div className="brd p-2  ">{item.brand_name}</div> */}
                 <div className="brd p-2  ">item price : {item.price}</div>
                 <div className="brd p-2">stock : {item.stock}</div>
 
@@ -57,18 +44,15 @@ const Cart = () => {
                   <button onClick={() => decreaseAmount(item.id)}>
                     decrease
                   </button>
-
-                  {/* <div className="brd p-2">Amount left : {item.stock}</div> */}
                   <div className="brd p-2">cart Amount : {item.amount}</div>
-
                   <button onClick={() => increaseAmount(item.id)}>
                     increase
                   </button>
                 </div>
 
-                {/* <div className="brd p-2  ">
+                <div className="brd p-2  ">
                   sub total {item.price * item.amount}
-                </div> */}
+                </div>
                 <button
                   className="brd p-2"
                   onClick={() => deleteCartItem(item.id)}
