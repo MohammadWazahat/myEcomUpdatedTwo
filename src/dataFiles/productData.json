@@ -38,7 +38,10 @@
       "camera_rear": "g",
       "camera_front": "g",
       "display": "g",
-      "battery": "g"
+      "battery": "g",
+      "amount": 1,
+      "newId": "9bd8",
+      "cartQuantity": 20
     },
     {
       "id": "a8d9",
@@ -58,7 +61,9 @@
       "camera_rear": "j",
       "camera_front": "j",
       "display": "j",
-      "battery": "j"
+      "battery": "j",
+      "amount": 1,
+      "cartQuantity": 20
     }
   ]
 }

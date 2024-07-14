@@ -11,12 +11,12 @@ const Cart = () => {
     decreaseAmount,
   } = useContext(CartContext);
 
-  console.log(state);
+  // console.log(state);
   //  console.log(state.cart)
   //  console.log(state.amount)
   const data = state.cart;
   const myCartData = state.cartProducts;
-  console.log(myCartData);
+  // console.log(myCartData);
   // const [cartData , setCartData ] = useState([]);
 
   // useEffect(() => {
@@ -51,19 +51,19 @@ const Cart = () => {
                 <div className="brd p-2  ">Model name {item.model_name}</div>
                 {/* <div className="brd p-2  ">{item.brand_name}</div> */}
                 <div className="brd p-2  ">item price : {item.price}</div>
-                {/* <div className="brd p-2">stock left : {item.stock}</div> */}
+                <div className="brd p-2">stock : {item.stock}</div>
 
                 <div>
-                  {/* <button onClick={() => decreaseAmount(item.id)}>
+                  <button onClick={() => decreaseAmount(item.id)}>
                     decrease
-                  </button> */}
+                  </button>
 
                   {/* <div className="brd p-2">Amount left : {item.stock}</div> */}
-                  <div className="brd p-2">cart quantity : {item.cartQuantity}</div>
+                  <div className="brd p-2">cart Amount : {item.amount}</div>
 
-                  {/* <button onClick={() => increaseAmount(item.id)}>
+                  <button onClick={() => increaseAmount(item.id)}>
                     increase
-                  </button> */}
+                  </button>
                 </div>
 
                 {/* <div className="brd p-2  ">

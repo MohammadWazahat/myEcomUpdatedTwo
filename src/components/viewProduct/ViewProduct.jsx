@@ -4,13 +4,16 @@ import StarRating from "./StarRating";
 import QuantityAdder from "./QuantityAdder";
 import ProductColor from "./ProductColor";
 import { CartContext } from "../../contexts/CartContext";
+import { useParams } from "react-router-dom";
 
 const ViewProduct = () => {
   const { viewData ,amount } = useContext(AllDataContext);
   const { AddMoreToMyCart } = useContext(CartContext);
-  
+//  const myID =  useParams();
+//  console.log(myID.id)
+//  const newId = myID.id ;
   // console.log(viewData);
-console.log(amount);
+// console.log(amount);
   return (
     <>
       <div className="brd m-4 p-2">
