@@ -17,7 +17,7 @@ const StarRating = (viewData) => {
             </div> 
           ) : stars >= number ? (
             <div>
-              {" "}
+             
               <FaRegStarHalfStroke />
             </div>
           ) : (
@@ -31,7 +31,6 @@ const StarRating = (viewData) => {
   });
   return (
     <div>
-      i m star rating
       <div className="flex" >{ratingStar}</div>
     </div>
   );

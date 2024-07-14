@@ -41,6 +41,27 @@
       "display": "b",
       "battery": "b",
       "amount": 1
+    },
+    {
+      "id": "fc4b",
+      "brand_name": "SAMSUNG",
+      "model_name": "SAMSUNG GALAXY S20",
+      "cover_image": "A",
+      "images": [],
+      "price": "34000",
+      "stock": "37",
+      "color": "BLACK",
+      "storage": "128",
+      "ram": "6",
+      "processor": "Snapdragon 7s gen 2",
+      "rating": "4.2",
+      "rating_count": "18324",
+      "description": "SLIM AND LIGHT WEIGHT",
+      "camera_rear": "48",
+      "camera_front": "16",
+      "display": "1.5 K AMOLED",
+      "battery": "5000 mAH",
+      "amount": 1
     }
   ]
 }

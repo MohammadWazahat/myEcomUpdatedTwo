@@ -1,20 +1,70 @@
 * {
-  background-color: #e9f0fc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbarColor {
+  background-color: #f2fbff;
+}
+
+.iconColor {
+  color: rgb(0, 68, 254);
+}
+
+.mainHeading {
+  color: rgb(44, 44, 47);
 }
 
 button {
-  margin: 2px;
+  /* margin: 2px; */
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.buttonOne{
+  color : rgb(0, 68, 254) ;
+  border : 1px solid rgb(0, 68, 254);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonTwo{
+  color : rgb(232, 238, 255) ;
+  border : 1px solid rgb(5, 5, 5);
+  background-color: rgb(0, 68, 254);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonThree{
+  color : rgb(27, 27, 27) ;
+  border : 1px solid rgb(5, 5, 5);
+  background-color: rgb(233, 238, 251);
+  border-radius: 6px;
+  width :150px ;
+  height : 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardOne {
+  background-color: #dae9ff;
+}
+/* 
+.textColorlight {
+  color: antiquewhite;
+}
+
+.textColorDark {
+  color: rgb(52, 30, 1);
+} */
+
+.brd {
   border: 1px solid black;
 }
-
-.textColorlight{
-color:antiquewhite;
-}
-
-.textColorDark{
-  color:rgb(52, 30, 1);
-  }
-
-  .brd{
-    border: 1px solid black;
-  }

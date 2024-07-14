@@ -36,14 +36,14 @@ const Products = () => {
   return (
     <div>
       <div>
-        <div className="flex justify-center items-center m-4 p-4 text-2xl">
+        <div className="mainHeading flex justify-center items-center m-4 p-4 text-2xl font-bold">
           Choose Your Brand
         </div>
-        <div className=" grid grid-cols-4 m-2 ">
+        <div className="  grid grid-cols-3 m-2 gap-2">
           {Y.map((item, index) => {
             return (
               <button
-                className="m-2 p-2"
+                className="buttonOne m-2 p-2 rounded "
                 key={index}
                 onClick={() => FilterByBrand(item)}
               >
@@ -52,48 +52,76 @@ const Products = () => {
             );
           })}
         </div>
-        <div>
-          <button className="m-2 p-2" onClick={() => AllProducts()}>
+        <div className="flex justify-center items-center mt-24 mb-8">
+          <button
+            className="buttonTwo m-2 p-2 px-4"
+            onClick={() => AllProducts()}
+          >
             All Products
           </button>
         </div>
         <hr className="horizon boder border-slate-800 mx-4" />
-        <div className="flex gap-4 m-2 p-4">
-          <button className="p-3 px-8" onClick={() => setMode(true)}>
-            Grid
+
+        <div className="flex justify-around p-4">
+          <button
+            className="buttonThree p-3"
+            onClick={() => setMode(true)}
+          >
+            Grid View
           </button>
-          <button className="p-3 px-8" onClick={() => setMode(false)}>
-            list
-          </button>
-        </div>
-        <hr className="horizon boder border-slate-800 mx-4" />
-        <div className="flex flex-col gap-4 m-2 p-4">
-          <button className="p-3 px-8" onClick={() => SortLowestRed()}>
-            Low stock first
-          </button>
-          <button className="p-3 px-8" onClick={() => SortHighestRed()}>
-            High Stock first
-          </button>
-          <button className="p-3 px-8" onClick={() => SortAscRed()}>
-            AscendingRed
-          </button>
-          <button className="p-3 px-8" onClick={() => SortDescRed()}>
-            DescendingRed
+          <button
+            className="buttonThree p-3 "
+            onClick={() => setMode(false)}
+          >
+            List View
           </button>
         </div>
         <hr className="horizon boder border-slate-800 mx-4" />
+        <div className="flex flex-col gap-6 m-2 p-4">
+          <div className="flex justify-center items-center gap-6 ">
+            <button
+              className="buttonThree "
+              onClick={() => SortLowestRed()}
+            >
+              Low to High
+            </button>
+            <button
+              className="buttonThree "
+              onClick={() => SortHighestRed()}
+            >
+              High to Low
+            </button>
+          </div>
+          <div className="flex justify-center items-center gap-6 ">
+            <button
+              className="buttonThree "
+              onClick={() => SortAscRed()}
+            >
+              A to Z
+            </button>
+            <button
+              className="buttonThree "
+              onClick={() => SortDescRed()}
+            >
+              Z to A
+            </button>
+          </div>
+        </div>
+        <hr className="horizon border border-slate-800 mx-4" />
 
         <div
           className={
             mode
-              ? `flex flex-col sm:grid sm:grid-cols-3 gap-4 mx-16`
+              ? `flex flex-col sm:grid sm:grid-cols-3 gap-8 mx-16 my-32`
               : `flex flex-col gap-4 mx-16 `
           }
         >
           {productsByBrand.map((item) => {
             return (
-              <div className="brd m-4 my-8" key={item.id}>
+              <div className="cardOne border border-slate-800 rounded-xl" key={item.id}>
+                <div className="">
                 <SingleCardProd {...item} />
+                </div>
                 <div className="flex justify-center items-center gap-4 m-2 p-2 ">
                   <button
                     className="flex justify-center items-center p-2 px-8"

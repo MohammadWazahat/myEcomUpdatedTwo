@@ -2,57 +2,65 @@ import React, { useContext } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { CartContext } from "../../contexts/CartContext";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlineAccountCircle } from "react-icons/md";
+import { BiCategory } from "react-icons/bi";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Navbar = () => {
-  const { state } = useContext(CartContext)
+  const { state } = useContext(CartContext);
   return (
     <div>
       <section>
         <header>
-          <div className="flex flex-col m-4 p-4 justify-around items-center ">
-            <div className=" m-4 text-4xl font-bold">
-              <span className="alphaColor">E</span>-COM
-              <span className="alphaColor"> W</span>ORLD
+          <div className=" navbarColor flex  justify-around items-center p-2">
+            <div className=" text-2xl font-bold">
+              <span className="">E</span>-COM
+              <span className=""> W</span>ORLD
             </div>
-            <div className=" flex m-4 text-xl">
-              <ul className="flex flex-col  gap-6">
-                <li className="navlink ">
-                  <NavLink to="/" className="clickLink">
-                    Home
+            <div className="flex item-center justify-center ">
+              <ul className="flex gap-6 ">
+                <li className="">
+                  <NavLink to="/" className="">
+                    <IoHomeOutline color="rgb(0, 68, 254)" className=" h-8 w-8 " />
                   </NavLink>
                 </li>
-                <li className="navlink">
-                  <NavLink to="/allProducts" className="clickLink">
-                    Products
+                <li className="">
+                  <NavLink to="/allProducts" className="">
+                    <BiCategory color="rgb(0, 68, 254)"  className="h-8 w-8 " />
                   </NavLink>
                 </li>
-                <li className="navlink">
-                  <NavLink to="/about" className="clickLink">
+                <li className="">
+                  <NavLink to="/cart" className="">
+                    <div className="flex">
+                      <div>
+                        <MdOutlineShoppingCart color="rgb(0, 68, 254)"  className="h-8 w-8 " />
+                      </div>
+                      <span>{state.totalItems} </span>
+                    </div>
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink to="/adminGetAllProducts" className="">
+                    <MdOutlineAccountCircle color="rgb(0, 68, 254)"  className="h-8 w-8 " />
+                  </NavLink>
+                </li>
+                {/* <li className="">
+                  <NavLink to="/about" className="">
                     About
                   </NavLink>
-                </li>
-                <li className="navlink">
-                  <NavLink to="/cart" className="clickLink">
-                    Cart : { state.totalItems} 
-                  </NavLink>
-                </li>
-                <li className="navlink">
-                  <NavLink to="/adminAddProduct" className="clickLink">
+                </li>                
+                <li className="">
+                  <NavLink to="/adminAddProduct" className="">
                    Admin Add Product 
                   </NavLink>
-                </li>
-                <li className="navlink">
-                  <NavLink to="/adminGetAllProducts" className="clickLink">
-                    Admin Get All Product
-                  </NavLink>
-                </li>
-                
+                </li> */}
               </ul>
             </div>
           </div>
-          
-          <div className="horizonLineBox">
-            <hr className="horizon boder border-slate-800 mx-4" />
+
+          <div className="">
+            <hr className="horizon boder border-slate-800 " />
           </div>
         </header>
       </section>
