@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const AdminSingleCard = (user) => {
   // console.log(user);
+  // console.log(user._id);
 
   const navigate = useNavigate();
   const handleDelete = (id) => {
@@ -11,7 +12,7 @@ const AdminSingleCard = (user) => {
     const confirm = window.confirm("would you like to delete the user");
     if (confirm) {
       axios
-        .delete(`http://localhost:3010/users/` + id)
+        .delete(`http://localhost:3015/users/myProducts/` + id)
         .then((res) => {
           location.reload();
           //   navigate("/") // reload us to the same page
@@ -56,7 +57,7 @@ const AdminSingleCard = (user) => {
            <div className="  m-2 p-2">
               <Link
                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                to={`/adminSingleProduct/` + user.id}
+                to={`/adminSingleProduct/` + user._id}
               >
                 Product Details
               </Link>
@@ -64,7 +65,7 @@ const AdminSingleCard = (user) => {
             <div className=" border border-slate-200 m-2 p-2">
               <button
                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                onClick={(e) => handleDelete(user.id)}
+                onClick={(e) => handleDelete(user._id)}
               >
                 Delete Product
               </button>

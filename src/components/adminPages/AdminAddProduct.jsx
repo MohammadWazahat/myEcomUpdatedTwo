@@ -7,12 +7,12 @@ const AdminAddProduct = () => {
     brand_name: "",
     model_name: "",
     cover_image: "",
-    images: [],
+    images: "",
     price: "",
     stock: "",
-    color: [],
-    storage: [],
-    ram: [],
+    color: "",
+    storage: "",
+    ram: "",
     processor: "",
     rating: "",    
     rating_count: "",
@@ -36,7 +36,7 @@ const AdminAddProduct = () => {
     e.preventDefault();
     // console.log(values);
     axios
-      .post("http://localhost:3010/users", values)
+      .post("http://localhost:3015/users/myProducts/", values)
       .then((res) => {
         // console.log(res);
         // hook to navigate back to the page

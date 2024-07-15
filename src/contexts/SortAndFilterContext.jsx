@@ -32,6 +32,8 @@ const SortAndFilterProvider = ({ children }) => {
     fetchData();
   }, []);
 
+
+
   const initialState = {
     myData: myData,
     isLoading: false,

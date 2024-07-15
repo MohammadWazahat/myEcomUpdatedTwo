@@ -9,7 +9,7 @@ const AdminReadSingleProduct = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3010/users/` + id)
+      .get(`http://localhost:3015/users/myProducts/` + id)
       .then((res) => {
         setData(res.data);
       })
@@ -35,7 +35,7 @@ const AdminReadSingleProduct = () => {
         <div>
           <Link
             className=" border border-slate-200 p-2 m-2"
-            to={`/adminUpdateProduct/` + data.id}
+            to={`/adminUpdateProduct/` + data._id}
           >
             Update Product Details
           </Link>

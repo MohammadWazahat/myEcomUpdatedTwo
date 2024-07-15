@@ -8,7 +8,7 @@ const AdminGetAllProducts = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get("http://localhost:3010/users");
+      const res = await axios.get("http://localhost:3015/users/myProducts/");
       setMyUser(res.data);
     };
     fetchData();

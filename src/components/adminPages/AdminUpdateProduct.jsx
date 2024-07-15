@@ -4,17 +4,17 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 
 const AdminUpdateProduct = () => {
   const { id } = useParams();
-
+// console.log(id)
   const [user, setUser] = useState({
     brand_name: "",
     model_name: "",
     cover_image: "",
-    images: [],
+    images: "",
     price: "",
     stock: "",
-    color: [],
-    storage: [],
-    ram: [],
+    color: "",
+    storage: "",
+    ram: "",
     processor: "",
     camera_rear: "",
     camera_front: "",
@@ -25,7 +25,7 @@ const AdminUpdateProduct = () => {
   });
 
   useEffect(() => {
-    axios.get(`http://localhost:3010/users/` + id).then((res) => {
+    axios.get(`http://localhost:3015/users/myProducts/` + id).then((res) => {
       setUser(res.data);
     });
   }, [id]);
@@ -41,7 +41,7 @@ const AdminUpdateProduct = () => {
   const navigate = useNavigate();
   const submitForm = async (e) => {
     e.preventDefault();
-    await axios.patch(`http://localhost:3010/users/` + id, user);
+    await axios.patch(`http://localhost:3015/users/myProducts/` + id, user);
     navigate("/adminGetAllProducts");
   };
 

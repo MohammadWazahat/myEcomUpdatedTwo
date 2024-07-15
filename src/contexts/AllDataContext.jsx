@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+import axios from "axios";
+import { createContext, useEffect, useState } from "react";
 import React from "react";
 
 export const AllDataContext = createContext();
@@ -22,6 +23,19 @@ const DataProvider = ({ children }) => {
     const stock = viewData.stock;
     amount < stock ? setAmount(amount + 1) : setAmount(stock);
   };
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const res = await axios.get("http://localhost:3015/users/myProducts/");
+  //    console.log(res)
+  //     } catch (err) {
+  //       console.log(err)
+  //     }
+  //   };
+  //   fetchData();
+  // }, []);
+
 
   return (
     <AllDataContext.Provider
