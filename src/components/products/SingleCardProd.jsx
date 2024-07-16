@@ -4,7 +4,7 @@ import StarRating from "../viewProduct/StarRating";
 
 
 const SingleCardProd = (item) => {
-  console.log(Data[0].image)
+  // console.log(Data[0].image)
   const testImage = Data[0].image;
   return (
     <div className="">

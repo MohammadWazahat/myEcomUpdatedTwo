@@ -118,7 +118,7 @@ const Products = () => {
         >
           {productsByBrand.map((item) => {
             return (
-              <div className="cardOne border border-slate-800 rounded-xl" key={item.id}>
+              <div className="cardOne border border-slate-800 rounded-xl" key={item._id}>
                 <div className="">
                 <SingleCardProd {...item} />
                 </div>

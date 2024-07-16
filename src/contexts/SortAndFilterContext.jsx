@@ -18,7 +18,7 @@ const SortAndFilterProvider = ({ children }) => {
     const fetchData = async () => {
       dispatch({ type: "SET_LOADING" });
       try {
-        const res = await axios.get("http://localhost:3010/users");
+        const res = await axios.get("http://localhost:3015/users/myProducts/");
         // setMyUser(res.data);
         const products = await res.data;
         dispatch({

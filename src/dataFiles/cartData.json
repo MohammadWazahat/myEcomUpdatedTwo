@@ -20,6 +20,29 @@
       "display": "1.5 K AMOLED",
       "battery": "5000 mAH",
       "amount": 1
+    },
+    {
+      "id": "e06c",
+      "_id": "669530f9084f734b8fb7a4da",
+      "brand_name": "d",
+      "model_name": "d",
+      "cover_image": "d",
+      "images": "",
+      "price": "d",
+      "stock": "d",
+      "color": "dd",
+      "storage": "d",
+      "ram": "d",
+      "processor": "d",
+      "rating": "d",
+      "rating_count": "d",
+      "description": "d",
+      "camera_rear": "d",
+      "camera_front": "d",
+      "display": "d",
+      "battery": "d",
+      "amount": 3,
+      "__v": 0
     }
   ]
 }

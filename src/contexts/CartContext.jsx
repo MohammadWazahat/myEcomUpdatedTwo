@@ -9,7 +9,7 @@ const CartProvider = ({ children }) => {
     const fetchData = async () => {
       dispatch({ type: "SET_LOADING" });
       try {
-        const res = await axios.get("http://localhost:3011/users");
+        const res = await axios.get("http://localhost:3015/users/userProduct/");
         // setMyUser(res.data);
         // console.log(res.data)
         const cartProducts = await res.data;
@@ -36,22 +36,32 @@ const CartProvider = ({ children }) => {
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
+  
 
   const AddToMyCart = (x) => {
+    console.log(x);
+    console.log(x._id);
+    console.log(state);
     // console.log({ ...x, cartQuantity: 0 });
-    const newComp = state.cartProducts.find((item) => item.id == x.id);
+    const newComp = state.cartProducts.find(
+      (item) => item._id == x._id
+    );
+    console.log(newComp);
     if (!newComp) {
       axios
-        .post("http://localhost:3011/users", { ...x })
+        .post("http://localhost:3015/users/userProduct/", {
+          ...x,
+        })
         .then((res) => {
           console.log(res);
         })
         .catch((err) => console.log(err));
-    } else {
+    } 
+    else {
       // console.log("data alredy exist");
       // console.log(newComp.amount)
       axios
-        .put(`http://localhost:3011/users/` + x.id, {
+        .put(`http://localhost:3015/users/userProduct/` + x._id, {
           ...x,
           amount: x.amount + newComp.amount,
         })
@@ -62,12 +72,12 @@ const CartProvider = ({ children }) => {
   };
 
   const deleteCartItem = (x) => {
-    // console.log(x);
+    console.log(x);
     // window.confirm ask for confirmation of deletion
     const confirm = window.confirm("would you like to delete the user");
     if (confirm) {
       axios
-        .delete(`http://localhost:3011/users/` + x)
+        .delete(`http://localhost:3015/users/userProduct/` + x)
         .then((res) => {
           location.reload();
         })
@@ -82,12 +92,12 @@ const CartProvider = ({ children }) => {
   };
 
   const AddMoreToMyCart = (x) => {
-    // console.log("i m clicked");
-    // console.log(x);
-    const newComp = state.cartProducts.find((item) => item.id == x.id);
+    console.log("i m clicked");
+    console.log(x);
+    const newComp = state.cartProducts.find((item) => item._id == x._id);
     if (!newComp) {
       axios
-        .post("http://localhost:3011/users", { ...x })
+        .post("http://localhost:3015/users/userProduct/", { ...x })
         .then((res) => {
           console.log(res);
         })
@@ -96,7 +106,7 @@ const CartProvider = ({ children }) => {
       // console.log("data alredy exist");
       // console.log(newComp.amount)
       axios
-        .put(`http://localhost:3011/users/` + x.id, {
+        .put(`http://localhost:3015/users/userProduct/` + x._id, {
           ...x,
           amount: x.amount + newComp.amount,
         })
@@ -107,18 +117,19 @@ const CartProvider = ({ children }) => {
   };
 
   const increaseAmount = (id) => {
-    console.log("i m clicked");
+    console.log(id);
+    // console.log("i m clicked");
     let updatedCart = state.cartProducts.map((item) => {
-      console.log("i m updated");
+      // console.log("i m updated");
       if (item.id == id) {
-        console.log(item);
+        // console.log(item);
         let incAmount = item.amount + 1;
-        console.log(incAmount);
+        // console.log(incAmount);
         if (incAmount >= item.stock) {
           incAmount = item.stock;
         }
         axios
-          .put(`http://localhost:3011/users/` + id, {
+          .put(`http://localhost:3015/users/userProduct/` + id, {
             ...item,
             amount: incAmount,
           })
@@ -143,7 +154,7 @@ const CartProvider = ({ children }) => {
           incAmount = 1;
         }
         axios
-          .put(`http://localhost:3011/users/` + id, {
+          .put(`http://localhost:3015/users/userProduct/` + id, {
             ...item,
             amount: incAmount,
           })
@@ -159,7 +170,7 @@ const CartProvider = ({ children }) => {
   useEffect(() => {
     // console.log("hey guys")
     //  console.log(state.myData)
-    
+
     dispatch({ type: "CHECK_CART" });
     dispatch({ type: "CART_TOTAL_PRICE" });
   }, [state.cartProducts]);
