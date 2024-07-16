@@ -29,9 +29,9 @@ const Cart = () => {
     <>
       <div className=" border border-slate-700 p-2 m-2 brd flex flex-col gap-8">
         {myCartData.map((item, index) => {
-          if (item.amount > item.stock) {
-            item.amount = item.stock;
-          }
+          // if (item.amount > item.stock) {
+          //   item.amount = item.stock;
+          // }
           return (
             <div key={index}>
               <div className="flex border border-slate-700  ">
@@ -41,12 +41,12 @@ const Cart = () => {
                   </div>
                   <div className="border border-slate-700">
                     <div>
-                      <button onClick={() => decreaseAmount(item.id)}>
+                      <button onClick={() => decreaseAmount(item._id)}>
                         decrease
                       </button>
 
                       <div className="brd p-2">cart Amount : {item.amount}</div>
-                      <button onClick={() => increaseAmount(item.id)}>
+                      <button onClick={() => increaseAmount(item._id)}>
                         increase
                       </button>
                     </div>

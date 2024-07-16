@@ -36,16 +36,13 @@ const CartProvider = ({ children }) => {
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
-  
 
   const AddToMyCart = (x) => {
     console.log(x);
     console.log(x._id);
     console.log(state);
     // console.log({ ...x, cartQuantity: 0 });
-    const newComp = state.cartProducts.find(
-      (item) => item._id == x._id
-    );
+    const newComp = state.cartProducts.find((item) => item._id == x._id);
     console.log(newComp);
     if (!newComp) {
       axios
@@ -56,8 +53,7 @@ const CartProvider = ({ children }) => {
           console.log(res);
         })
         .catch((err) => console.log(err));
-    } 
-    else {
+    } else {
       // console.log("data alredy exist");
       // console.log(newComp.amount)
       axios
@@ -104,11 +100,17 @@ const CartProvider = ({ children }) => {
         .catch((err) => console.log(err));
     } else {
       // console.log("data alredy exist");
-      // console.log(newComp.amount)
+      console.log("already in cart " , newComp.amount)
+      console.log("new amount send " , x.amount)
+      let newAmount = newComp.amount + x.amount ;
+      console.log(newAmount);
+      if(newAmount > x.stock){
+        newAmount = x.stock ;
+      }
       axios
         .put(`http://localhost:3015/users/userProduct/` + x._id, {
           ...x,
-          amount: x.amount + newComp.amount,
+          amount: newAmount,
         })
         .then((res) => {
           console.log(res);
@@ -119,12 +121,12 @@ const CartProvider = ({ children }) => {
   const increaseAmount = (id) => {
     console.log(id);
     // console.log("i m clicked");
-    let updatedCart = state.cartProducts.map((item) => {
-      // console.log("i m updated");
-      if (item.id == id) {
-        // console.log(item);
+    state.cartProducts.map((item) => {
+      console.log("i m updated", item);
+      if (item._id == id) {
+        console.log(item);
         let incAmount = item.amount + 1;
-        // console.log(incAmount);
+        console.log(incAmount);
         if (incAmount >= item.stock) {
           incAmount = item.stock;
         }
@@ -139,14 +141,13 @@ const CartProvider = ({ children }) => {
           });
       }
     });
-    // dispatch({ type: "INC_AMOUNT", payload: id });
   };
 
   const decreaseAmount = (id) => {
     console.log("i m clicked");
-    let updatedCart = state.cartProducts.map((item) => {
+    state.cartProducts.map((item) => {
       console.log("i m updated");
-      if (item.id == id) {
+      if (item._id == id) {
         console.log(item);
         let incAmount = item.amount - 1;
         console.log(incAmount);
@@ -164,13 +165,9 @@ const CartProvider = ({ children }) => {
           });
       }
     });
-    // dispatch({ type: "DEC_AMOUNT", payload: id });
   };
 
   useEffect(() => {
-    // console.log("hey guys")
-    //  console.log(state.myData)
-
     dispatch({ type: "CHECK_CART" });
     dispatch({ type: "CART_TOTAL_PRICE" });
   }, [state.cartProducts]);
