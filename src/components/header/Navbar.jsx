@@ -22,19 +22,25 @@ const Navbar = () => {
               <ul className="flex gap-6 ">
                 <li className="">
                   <NavLink to="/" className="">
-                    <IoHomeOutline color="rgb(0, 68, 254)" className=" h-8 w-8 " />
+                    <IoHomeOutline
+                      color="rgb(0, 68, 254)"
+                      className=" h-8 w-8 "
+                    />
                   </NavLink>
                 </li>
                 <li className="">
                   <NavLink to="/allProducts" className="">
-                    <BiCategory color="rgb(0, 68, 254)"  className="h-8 w-8 " />
+                    <BiCategory color="rgb(0, 68, 254)" className="h-8 w-8 " />
                   </NavLink>
                 </li>
                 <li className="">
                   <NavLink to="/cart" className="">
                     <div className="flex">
                       <div>
-                        <MdOutlineShoppingCart color="rgb(0, 68, 254)"  className="h-8 w-8 " />
+                        <MdOutlineShoppingCart
+                          color="rgb(0, 68, 254)"
+                          className="h-8 w-8 "
+                        />
                       </div>
                       <span>{state.totalItems} </span>
                     </div>
@@ -42,7 +48,15 @@ const Navbar = () => {
                 </li>
                 <li className="">
                   <NavLink to="/adminGetAllProducts" className="">
-                    <MdOutlineAccountCircle color="rgb(0, 68, 254)"  className="h-8 w-8 " />
+                    <MdOutlineAccountCircle
+                      color="rgb(0, 68, 254)"
+                      className="h-8 w-8 "
+                    />
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink to="/logIn" className="">
+                    logIn
                   </NavLink>
                 </li>
                 {/* <li className="">

@@ -13,13 +13,21 @@ export const SortAndFilterContext = createContext();
 
 const SortAndFilterProvider = ({ children }) => {
   const { myData } = useContext(AllDataContext);
+  const [myUser, setMyUser] = useState();
+  // console.log(myUser);
 
   useEffect(() => {
     const fetchData = async () => {
       dispatch({ type: "SET_LOADING" });
       try {
-        const res = await axios.get("http://localhost:3015/users/myProducts/");
-        // setMyUser(res.data);
+        // const res = await axios.get("http://localhost:3015/users/myProducts/");
+        const res = await axios.get("http://localhost:3015/users/myProducts/", {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("tks")}`,
+          },
+        });
+        console.log(res.data);
+        setMyUser(res.data);
         const products = await res.data;
         dispatch({
           type: "SET_MY_DATA",
@@ -27,12 +35,11 @@ const SortAndFilterProvider = ({ children }) => {
         });
       } catch (err) {
         dispatch({ type: "SET_ERROR" });
+        setMyUser(null);
       }
     };
     fetchData();
   }, []);
-
-
 
   const initialState = {
     myData: myData,
@@ -133,6 +140,7 @@ const SortAndFilterProvider = ({ children }) => {
         arr: arr,
         newData: newData,
         Y: Y,
+        myUser: myUser,
       }}
     >
       {children}

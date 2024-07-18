@@ -7,9 +7,20 @@ const AdminGetAllProducts = () => {
   const [myUser, setMyUser] = useState([]);
 
   useEffect(() => {
+    console.log("i m useeffetct");
     const fetchData = async () => {
-      const res = await axios.get("http://localhost:3015/users/myProducts/");
-      setMyUser(res.data);
+      try {
+        const res = await axios.get("http://localhost:3015/users/", {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("tks")}`,
+          },
+        });
+        console.log(res.data);
+        setMyUser(res.data);
+      } catch (err) {
+        console.log(err);
+        setMyUser(null);
+      }
     };
     fetchData();
   }, []);
@@ -28,15 +39,17 @@ const AdminGetAllProducts = () => {
         </div>
         <div>
           <div>
-            {myUser.map((user, index) => {
-              return (
-                <div className="" key={index}>
-                  <div className=" m-2 ">
+            {!myUser ? (
+              <div> session expired </div>
+            ) : (
+              myUser.map((user, index) => {
+                return (
+                  <div className=" " key={index}>
                     <AdminSingleCard {...user} />
                   </div>
-                </div>
-              );
-            })}
+                );
+              })
+            )}
           </div>
         </div>
       </div>

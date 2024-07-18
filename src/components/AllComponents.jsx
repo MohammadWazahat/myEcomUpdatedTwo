@@ -11,6 +11,8 @@ import AdminAddProduct from "./adminPages/AdminAddProduct";
 import AdminGetAllProducts from "./adminPages/AdminGetAllProducts";
 import AdminReadSingleProduct from "./adminPages/AdminReadSingleProduct";
 import AdminUpdateProduct from "./adminPages/AdminUpdateProduct";
+import SignUp from "./Auth/SignUp";
+import LogIn from "./Auth/LogIn";
 
 const router = createBrowserRouter([
   {
@@ -102,6 +104,14 @@ const router = createBrowserRouter([
         <Footer />
       </>
     ),
+  },
+  {
+    path: "/signUp",
+    element: <SignUp/>,
+  },
+  {
+    path: "/logIn",
+    element: <LogIn/>,
   },
 ]);
 
