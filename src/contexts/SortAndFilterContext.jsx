@@ -26,7 +26,7 @@ const SortAndFilterProvider = ({ children }) => {
             Authorization: `Bearer ${localStorage.getItem("tks")}`,
           },
         });
-        console.log(res.data);
+        // console.log(res.data);
         setMyUser(res.data);
         const products = await res.data;
         dispatch({

@@ -16,11 +16,11 @@
   color: rgb(44, 44, 47);
 }
 
-button {
-  /* margin: 2px; */
+/* button {
+  margin: 2px;
   border: 1px solid black;
   border-radius: 3px;
-}
+} */
 
 .buttonOne{
   color : rgb(0, 68, 254) ;
@@ -56,14 +56,16 @@ button {
 .cardOne {
   background-color: #dae9ff;
 }
-/* 
-.textColorlight {
-  color: antiquewhite;
+
+.cardTwo{
+  background-color: #d0d0d2;
+  color:rgb(80, 46, 1);
 }
 
-.textColorDark {
-  color: rgb(52, 30, 1);
-} */
+.bgcOne{
+  background-color: #0b154e;
+  color :rgb(179, 236, 236) ;
+}
 
 .brd {
   border: 1px solid black;

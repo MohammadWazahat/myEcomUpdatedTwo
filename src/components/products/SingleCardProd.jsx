@@ -4,14 +4,14 @@ import StarRating from "../viewProduct/StarRating";
 
 
 const SingleCardProd = (item) => {
-  // console.log(Data[0].image)
-  const testImage = Data[0].image;
+  console.log(Data[1].image2)
+  const testImage = Data[1].image2;
   return (
     <div className="">
       <div className="">
         <div>
           <div className="">
-            <img className="border border-slate-700 h-64 w-96 " src={testImage} alt="" />
+            <img className="border border-slate-700 h-64 w-96 " src={item.cover_image} alt="" />
           </div>
           <div className="flex m-2 text-lg font-medium ">{item.model_name}</div>
           <div className="flex m-2">{item.brand_name}</div>

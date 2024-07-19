@@ -10,7 +10,7 @@ const AdminGetAllProducts = () => {
     console.log("i m useeffetct");
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:3015/users/", {
+        const res = await axios.get("http://localhost:3015/users/myProducts/", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("tks")}`,
           },

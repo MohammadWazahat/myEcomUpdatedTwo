@@ -1,14 +1,10 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
+import SingleCartItem from "./SingleCartItem";
+import { NavLink } from "react-router-dom";
 
 const Cart = () => {
-  const {
-    state,
-    deleteCartItem,
-    deleteAllCartItems,
-    increaseAmount,
-    decreaseAmount,
-  } = useContext(CartContext);
+  const { state, deleteAllCartItems } = useContext(CartContext);
 
   // console.log(state);
   //  console.log(state.cart)
@@ -27,75 +23,43 @@ const Cart = () => {
 
   return (
     <>
-      <div className=" border border-slate-700 p-2 m-2 brd flex flex-col gap-8">
+      <div className=" m-2 flex flex-col gap-8">
         {myCartData.map((item, index) => {
-          // if (item.amount > item.stock) {
-          //   item.amount = item.stock;
-          // }
           return (
             <div key={index}>
-              <div className="flex border border-slate-700  ">
-                <div>
-                  <div className="border border-slate-700 h-20 w-20">
-                    {item.id}
-                  </div>
-                  <div className="border border-slate-700">
-                    <div>
-                      <button onClick={() => decreaseAmount(item._id)}>
-                        decrease
-                      </button>
-
-                      <div className="brd p-2">cart Amount : {item.amount}</div>
-                      <button onClick={() => increaseAmount(item._id)}>
-                        increase
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="border border-slate-700">
-                    Model name {item.model_name}
-                  </div>
-                  <div className="border border-slate-700">rating</div>
-                  <div className="border border-slate-700">
-                    item price : {item.price}
-                  </div>
-
-                  <div className="border border-slate-700">
-                    stock : {item.stock}
-                  </div>
-                  <div className="brd p-2  ">
-                    sub total {item.price * item.amount}
-                  </div>
-                </div>
-              </div>
-              <div className="border border-slate-700">
-                <button
-                  className="brd p-2"
-                  onClick={() => deleteCartItem(item._id)}
-                >
-                  delete
-                </button>
-              </div>
-
-              {/* <div className="mx-2">
-                  <img className="h-16 w-16 " src={item.images[0]} alt="" />
-                </div> */}
+              <SingleCartItem {...item} />
             </div>
           );
         })}
       </div>
       <div>
-        <div>cart total : {state.totalPrice}$ </div>
-        <div>shipping fee : {state.shippingFee}$</div>
-        <div>order total : {state.totalPrice + state.shippingFee}$ </div>
+        <div>
+          <button
+            className="p-2 m-4 border border-slate-700"
+            onClick={() => deleteAllCartItems()}
+          >
+            Delete All
+          </button>
+        </div>
       </div>
-
-      <hr className="horizon border border-slate-800 mx-4 m-2" />
-      <div>
-        <button className="p-4 m-4" onClick={() => deleteAllCartItems()}>
-          delete All
-        </button>
+      <div className=" bgcOne mt-32 flex flex-col border border-slate-700 mx-2 ">
+        <div className="p-4">
+          <div className="">Cart Total : {state.totalPrice}$ </div>
+          <div>Shipping Fee : {state.shippingFee}$</div>
+          <div className="text-xl text-red-400">
+            Order Total : {state.totalPrice + state.shippingFee}${" "}
+          </div>
+          <div>
+            <button className="p-2 m-4 border border-slate-700">
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="mt-12 flex justify-center items-center ">
+        <NavLink to="/allProducts">
+          <button className="border border-slate-800 p-3 px-5 m-2 ">Shop Now</button>
+        </NavLink>
       </div>
       <hr className="horizon border border-slate-800 mx-4 m-2 " />
     </>
