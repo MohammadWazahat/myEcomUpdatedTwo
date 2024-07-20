@@ -30,27 +30,30 @@ const AdminGetAllProducts = () => {
   return (
     <div>
       <div>
-        <div className="flex justify-center items-center text-2xl ">
-          Admin product page
+        <div className="flex justify-center items-center text-2xl m-12">
+          Admin Product Page
         </div>
 
-        <div className=" ">
-          <Link to="/adminAddProduct">Admin Add Products</Link>
+        <div className=" flex justify-end">
+          <Link to="/adminAddProduct">
+          <button className="buttonOne p-2 m-12 ">Admin Add Product</button>
+          </Link>
         </div>
         <div>
-          <div>
+          <div className="flex flex-col justify-center gap-8 sm:grid sm:grid-cols-3 sm:gap-8 ">
             {!myUser ? (
               <div> session expired </div>
             ) : (
               myUser.map((user, index) => {
                 return (
-                  <div className=" " key={index}>
+                  <div className="flex justify-center " key={index}>
                     <AdminSingleCard {...user} />
                   </div>
                 );
               })
             )}
           </div>
+          <hr className="horizon border border-slate-800  mt-24" />
         </div>
       </div>
     </div>

@@ -124,14 +124,14 @@ const Products = () => {
                 </div>
                 <div className="flex justify-center items-center gap-4 m-2 p-2 ">
                   <button
-                    className="flex justify-center items-center p-2 px-8"
+                    className="buttonThree flex justify-center items-center p-2 px-8"
                     onClick={() => AddToMyCart({ ...item })}
                   >
                     Add to cart
                   </button>
                   <NavLink to={`/viewProduct/${item.id}`}>
                     <button
-                      className="p-2"
+                      className="buttonThree p-2"
                       onClick={() => AddToPage({ ...item })}
                     >
                       More details ...
