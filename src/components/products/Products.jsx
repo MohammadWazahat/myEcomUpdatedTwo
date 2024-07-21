@@ -143,6 +143,7 @@ const Products = () => {
           })}
         </div>
       </div>
+      <hr className="horizon border border-slate-800  mt-24" />
     </div>
   );
 };

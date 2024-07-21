@@ -40,17 +40,22 @@ const LogIn = () => {
   return (
     <div>
       <div className="">
-        <div className="flex justify-end m-8 ">
-          <div className="border border-gray-700 rounded flex mx-8 m-2 p-2">
+        <div className="flex justify-end m-8 gap-4 ">
+          <div className="border border-gray-700 rounded flex p-2 mt-8">
             <Link to="/">Go To Dashboard</Link>
+          </div>
+          <div className="border border-gray-700 rounded flex p-2 mt-8">
+            <Link to="/adminGetAllProducts" className="">
+              Admin Panel
+            </Link>
           </div>
         </div>
         <div>
           <div>
-            <section className="bg-gray-50 dark:bg-gray-900">
+            <section className="">
               <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-                  <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+                  <div className="brd p-6 space-y-4 md:space-y-6 sm:p-8">
                     <form
                       onSubmit={submitForm}
                       className="space-y-4 md:space-y-6"
@@ -90,10 +95,7 @@ const LogIn = () => {
                         />
                       </div>
 
-                      <button
-                        type="submit"
-                        className="w-full text-gray-700 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                      >
+                      <button type="submit" className="buttonTwo w-full p-2 ">
                         Log In
                       </button>
                       <p className="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -112,11 +114,26 @@ const LogIn = () => {
             </section>
           </div>
         </div>
-        {tok == undefined ? (
-          <h1>please log in</h1>
-        ) : (
-          <h1>USER DONT EXIST PLEASE SIGN UP</h1>
-        )}
+        <div>
+          <div className="flex justify-center items-center text-red-800 text-2xl mb-32">
+            {tok == undefined ? (
+              <div>Please Log In</div>
+            ) : (
+              <div className="flex flex-col gap-2 justify-center items-center">
+                <div>User Don't Exist</div>
+                <div className="text-lg">
+                  Please{" "}
+                  <Link
+                    to="/signUp"
+                    className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                  >
+                    SignUp here
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ import AdminReadSingleProduct from "./adminPages/AdminReadSingleProduct";
 import AdminUpdateProduct from "./adminPages/AdminUpdateProduct";
 import SignUp from "./Auth/SignUp";
 import LogIn from "./Auth/LogIn";
+import PaymentSuccess from "./paymentIntegration/PaymentSuccess";
 
 const router = createBrowserRouter([
   {
@@ -112,6 +113,10 @@ const router = createBrowserRouter([
   {
     path: "/logIn",
     element: <LogIn/>,
+  },
+  {
+    path: "/paymentsuccess",
+    element: <PaymentSuccess />,
   },
 ]);
 

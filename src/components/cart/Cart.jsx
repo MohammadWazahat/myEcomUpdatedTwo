@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 import SingleCartItem from "./SingleCartItem";
 import { NavLink } from "react-router-dom";
+import axios from "axios";
 
 const Cart = () => {
   const { state, deleteAllCartItems } = useContext(CartContext);
@@ -21,9 +22,58 @@ const Cart = () => {
     return <div>Error ..............</div>;
   }
 
+  const checkoutHandler = async (amount) => {
+    console.log(amount);
+    const {
+      data: { key },
+    } = await axios.get("http://www.localhost:3015/api/getkey");
+
+    const {
+      data: { order },
+    } = await axios.post("http://localhost:3015/api/checkout", {
+      amount,
+    });
+
+    console.log(order);
+    const options = {
+      key,
+      amount: order.amount,
+      currency: "INR",
+      name: "M Wazahat Ali Rza",
+      description: "My RazorPay",
+      image: "",
+      order_id: order.id,
+      callback_url: "http://localhost:3015/api/paymentverification",
+      prefill: {
+        name: "M Rza",
+        email: "mwazahatrza@example.com",
+        contact: "9999999999",
+      },
+      notes: {
+        address: "Razorpay Corporate Office",
+      },
+      theme: {
+        color: "#121212",
+      },
+    };
+    const razor = new window.Razorpay(options);
+    // console.log(razor)
+    razor.open();
+  };
+  // console.log(state);
+  // console.log(state.totalPrice + state.shippingFee);
+  // console.log();
+  const amount = state.totalPrice + state.shippingFee;
+  // console.log(amount);
+
   return (
     <>
-      <div className=" m-2 flex flex-col gap-8">
+      <div>
+        <div className="flex justify-center text-2xl font-medium mt-6 mx-2">
+          My Cart
+        </div>
+      </div>
+      <div className=" mt-16 mx-2 flex flex-col gap-8">
         {myCartData.map((item, index) => {
           return (
             <div key={index}>
@@ -50,7 +100,10 @@ const Cart = () => {
             Order Total : {state.totalPrice + state.shippingFee}${" "}
           </div>
           <div>
-            <button className="p-2 m-4 border border-slate-700">
+            <button
+              className="p-2 m-4 border border-slate-700"
+              onClick={() => checkoutHandler(amount)}
+            >
               Check Out
             </button>
           </div>
@@ -58,7 +111,9 @@ const Cart = () => {
       </div>
       <div className="mt-12 flex justify-center items-center ">
         <NavLink to="/allProducts">
-          <button className="border border-slate-800 p-3 px-5 m-2 ">Shop Now</button>
+          <button className="border border-slate-800 p-3 px-5 m-2 ">
+            Shop Now
+          </button>
         </NavLink>
       </div>
       <hr className="horizon border border-slate-800 mx-4 m-2 " />

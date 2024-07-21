@@ -22,16 +22,18 @@ const Home = () => {
     <div>
       <div className="flex flex-col ">
         {!myUser ? (
-          <div className="text-gray-950 m-32">
-            <div>session expired </div>
-            <div>
-              please{" "}
+          <div className="mt-32">
+            <div className="flex text-red-600 text-3xl justify-center">
+              {" "}
+              Session Expired{" "}
+            </div>
+            <div className="flex justify-center">
+              Please{" "}
               <span>
-                <NavLink to="/logIn" className="text-blue-600">
-                  logIn
+                <NavLink to="/logIn" className="text-blue-600 mx-2">
+                  LogIn Again
                 </NavLink>
               </span>
-              {"  "}here
             </div>
           </div>
         ) : (
@@ -51,9 +53,10 @@ const Home = () => {
       </div>
       <div className="flex justify-center items-center ">
         <NavLink to="/allProducts">
-          <button className=" p-3 px-5 m-2 ">Shop Now</button>
+          <button className="buttonFour mt-12 p-3 px-5 m-2 ">Shop Now</button>
         </NavLink>
       </div>
+      <hr className="horizon border border-slate-800  mt-24" />
     </div>
   );
 };

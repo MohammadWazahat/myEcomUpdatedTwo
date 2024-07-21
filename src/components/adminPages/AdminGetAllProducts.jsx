@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import AdminSingleCard from "./AdminSingleCard";
 
 const AdminGetAllProducts = () => {
   const [myUser, setMyUser] = useState([]);
 
   useEffect(() => {
-    console.log("i m useeffetct");
+    // console.log("i m useeffetct");
     const fetchData = async () => {
       try {
         const res = await axios.get("http://localhost:3015/users/myProducts/", {
@@ -15,7 +15,7 @@ const AdminGetAllProducts = () => {
             Authorization: `Bearer ${localStorage.getItem("tks")}`,
           },
         });
-        console.log(res.data);
+        // console.log(res.data);
         setMyUser(res.data);
       } catch (err) {
         console.log(err);
@@ -30,19 +30,30 @@ const AdminGetAllProducts = () => {
   return (
     <div>
       <div>
-        <div className="flex justify-center items-center text-2xl m-12">
+        <div className="flex justify-center text-2xl font-medium mt-6 mx-2">
           Admin Product Page
         </div>
 
         <div className=" flex justify-end">
           <Link to="/adminAddProduct">
-          <button className="buttonOne p-2 m-12 ">Admin Add Product</button>
+            <button className="buttonOne p-2 m-12 ">Admin Add Product</button>
           </Link>
         </div>
         <div>
           <div className="flex flex-col justify-center gap-8 sm:grid sm:grid-cols-3 sm:gap-8 ">
             {!myUser ? (
-              <div> session expired </div>
+              <div className="">
+                <div className="flex text-red-600 text-3xl justify-center">
+                  {" "}
+                  Session Expired{" "}
+                </div>
+                <div className="flex justify-center">
+                  Please{" "}
+                  <NavLink to="/logIn" className="text-blue-600 mx-2">
+                    LogIn Again
+                  </NavLink>
+                </div>
+              </div>
             ) : (
               myUser.map((user, index) => {
                 return (
